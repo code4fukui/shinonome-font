@@ -55,7 +55,7 @@ BITMAP
 ............
 ............
 ............
-ENDCHAR # °º
+ENDCHAR # „Éº
 STARTCHAR 2422
 ENCODING 9250
 SWIDTH 960 0
@@ -74,7 +74,7 @@ BITMAP
 .@.@....@...
 ..@...@@....
 ............
-ENDCHAR # §¢
+ENDCHAR # „ÅÇ
 STARTCHAR 2424
 ENCODING 9252
 SWIDTH 960 0
@@ -93,7 +93,7 @@ BITMAP
 ...@........
 ............
 ............
-ENDCHAR # §§
+ENDCHAR # „ÅÑ
 STARTCHAR 2425
 ENCODING 9253
 SWIDTH 960 0
@@ -112,7 +112,7 @@ BITMAP
 .....@......
 ....@.......
 ............
-ENDCHAR # §•
+ENDCHAR # „ÅÖ
 STARTCHAR 2426
 ENCODING 9254
 SWIDTH 960 0
@@ -131,7 +131,7 @@ BITMAP
 .......@....
 ......@.....
 .....@......
-ENDCHAR # §¶
+ENDCHAR # „ÅÜ
 STARTCHAR 2428
 ENCODING 9256
 SWIDTH 960 0
@@ -150,7 +150,7 @@ BITMAP
 ..@...@.....
 .@.....@@@..
 ............
-ENDCHAR # §®
+ENDCHAR # „Åà
 STARTCHAR 2429
 ENCODING 9257
 SWIDTH 960 0
@@ -169,7 +169,7 @@ BITMAP
 ..@.@..@....
 ...@..@.....
 ............
-ENDCHAR # §©
+ENDCHAR # „Åâ
 STARTCHAR 242a
 ENCODING 9258
 SWIDTH 960 0
@@ -188,7 +188,7 @@ BITMAP
 ...@@...@@..
 ....@.......
 ............
-ENDCHAR # §™
+ENDCHAR # „Åä
 STARTCHAR 242b
 ENCODING 9259
 SWIDTH 960 0
@@ -207,7 +207,7 @@ BITMAP
 ..@..@.@....
 ..@...@.....
 ............
-ENDCHAR # §´
+ENDCHAR # „Åã
 STARTCHAR 242c
 ENCODING 9260
 SWIDTH 960 0
@@ -226,7 +226,7 @@ BITMAP
 ..@..@.@....
 ..@...@.....
 ............
-ENDCHAR # §¨
+ENDCHAR # „Åå
 STARTCHAR 242f
 ENCODING 9263
 SWIDTH 960 0
@@ -245,7 +245,7 @@ BITMAP
 ......@.....
 ......@.....
 ............
-ENDCHAR # §Ø
+ENDCHAR # „Åè
 STARTCHAR 2430
 ENCODING 9264
 SWIDTH 960 0
@@ -264,7 +264,7 @@ BITMAP
 ......@.....
 ......@.....
 ............
-ENDCHAR # §∞
+ENDCHAR # „Åê
 STARTCHAR 2431
 ENCODING 9265
 SWIDTH 960 0
@@ -283,7 +283,7 @@ BITMAP
 ..@....@....
 ......@.....
 ............
-ENDCHAR # §±
+ENDCHAR # „Åë
 STARTCHAR 2432
 ENCODING 9266
 SWIDTH 960 0
@@ -302,7 +302,7 @@ BITMAP
 ..@....@....
 ......@.....
 ............
-ENDCHAR # §≤
+ENDCHAR # „Åí
 STARTCHAR 2433
 ENCODING 9267
 SWIDTH 960 0
@@ -321,7 +321,7 @@ BITMAP
 ....@@@@@...
 ............
 ............
-ENDCHAR # §≥
+ENDCHAR # „Åì
 STARTCHAR 2434
 ENCODING 9268
 SWIDTH 960 0
@@ -340,7 +340,7 @@ BITMAP
 ...@@@@@....
 ............
 ............
-ENDCHAR # §¥
+ENDCHAR # „Åî
 STARTCHAR 2435
 ENCODING 9269
 SWIDTH 960 0
@@ -359,7 +359,7 @@ BITMAP
 ...@@.......
 .....@@@....
 ............
-ENDCHAR # §µ
+ENDCHAR # „Åï
 STARTCHAR 2436
 ENCODING 9270
 SWIDTH 960 0
@@ -378,7 +378,7 @@ BITMAP
 ...@@.......
 .....@@@....
 ............
-ENDCHAR # §∂
+ENDCHAR # „Åñ
 STARTCHAR 2437
 ENCODING 9271
 SWIDTH 960 0
@@ -397,7 +397,7 @@ BITMAP
 ...@..@@....
 ....@@......
 ............
-ENDCHAR # §∑
+ENDCHAR # „Åó
 STARTCHAR 2438
 ENCODING 9272
 SWIDTH 960 0
@@ -416,7 +416,7 @@ BITMAP
 ...@..@@....
 ....@@......
 ............
-ENDCHAR # §∏
+ENDCHAR # „Åò
 STARTCHAR 2439
 ENCODING 9273
 SWIDTH 960 0
@@ -435,7 +435,7 @@ BITMAP
 ......@.....
 .....@......
 ....@.......
-ENDCHAR # §π
+ENDCHAR # „Åô
 STARTCHAR 243a
 ENCODING 9274
 SWIDTH 960 0
@@ -454,7 +454,7 @@ BITMAP
 ......@.....
 .....@......
 ....@.......
-ENDCHAR # §∫
+ENDCHAR # „Åö
 STARTCHAR 243b
 ENCODING 9275
 SWIDTH 960 0
@@ -473,7 +473,7 @@ BITMAP
 ....@.......
 .....@@@@...
 ............
-ENDCHAR # §ª
+ENDCHAR # „Åõ
 STARTCHAR 243c
 ENCODING 9276
 SWIDTH 960 0
@@ -492,7 +492,7 @@ BITMAP
 ....@.......
 .....@@@@...
 ............
-ENDCHAR # §º
+ENDCHAR # „Åú
 STARTCHAR 243d
 ENCODING 9277
 SWIDTH 960 0
@@ -511,7 +511,7 @@ BITMAP
 .....@......
 ......@@....
 ............
-ENDCHAR # §Ω
+ENDCHAR # „Åù
 STARTCHAR 243e
 ENCODING 9278
 SWIDTH 960 0
@@ -530,7 +530,7 @@ BITMAP
 .....@......
 ......@@....
 ............
-ENDCHAR # §æ
+ENDCHAR # „Åû
 STARTCHAR 243f
 ENCODING 9279
 SWIDTH 960 0
@@ -549,7 +549,7 @@ BITMAP
 .@...@......
 .@....@@@@..
 ............
-ENDCHAR # §ø
+ENDCHAR # „Åü
 STARTCHAR 2440
 ENCODING 9280
 SWIDTH 960 0
@@ -568,7 +568,7 @@ BITMAP
 .@...@......
 .@....@@@@..
 ............
-ENDCHAR # §¿
+ENDCHAR # „Å†
 STARTCHAR 2441
 ENCODING 9281
 SWIDTH 960 0
@@ -587,7 +587,7 @@ BITMAP
 ......@@....
 ...@@@......
 ............
-ENDCHAR # §¡
+ENDCHAR # „Å°
 STARTCHAR 2442
 ENCODING 9282
 SWIDTH 960 0
@@ -606,7 +606,7 @@ BITMAP
 ......@@....
 ...@@@......
 ............
-ENDCHAR # §¬
+ENDCHAR # „Å¢
 STARTCHAR 2444
 ENCODING 9284
 SWIDTH 960 0
@@ -625,7 +625,7 @@ BITMAP
 ............
 ............
 ............
-ENDCHAR # §ƒ
+ENDCHAR # „Å§
 STARTCHAR 2445
 ENCODING 9285
 SWIDTH 960 0
@@ -644,7 +644,7 @@ BITMAP
 ............
 ............
 ............
-ENDCHAR # §≈
+ENDCHAR # „Å•
 STARTCHAR 2446
 ENCODING 9286
 SWIDTH 960 0
@@ -663,7 +663,7 @@ BITMAP
 ......@@@...
 ............
 ............
-ENDCHAR # §∆
+ENDCHAR # „Å¶
 STARTCHAR 2447
 ENCODING 9287
 SWIDTH 960 0
@@ -682,7 +682,7 @@ BITMAP
 ......@@@...
 ............
 ............
-ENDCHAR # §«
+ENDCHAR # „Åß
 STARTCHAR 2448
 ENCODING 9288
 SWIDTH 960 0
@@ -701,7 +701,7 @@ BITMAP
 ....@@@@@...
 ............
 ............
-ENDCHAR # §»
+ENDCHAR # „Å®
 STARTCHAR 2449
 ENCODING 9289
 SWIDTH 960 0
@@ -720,7 +720,7 @@ BITMAP
 ....@@@@@...
 ............
 ............
-ENDCHAR # §…
+ENDCHAR # „Å©
 STARTCHAR 244a
 ENCODING 9290
 SWIDTH 960 0
@@ -739,7 +739,7 @@ BITMAP
 ...@...@.@..
 ....@@@.....
 ............
-ENDCHAR # § 
+ENDCHAR # „Å™
 STARTCHAR 244b
 ENCODING 9291
 SWIDTH 960 0
@@ -758,7 +758,7 @@ BITMAP
 .@@...@@@@..
 ..@.........
 ............
-ENDCHAR # §À
+ENDCHAR # „Å´
 STARTCHAR 244c
 ENCODING 9292
 SWIDTH 960 0
@@ -777,7 +777,7 @@ BITMAP
 .@.@..@..@..
 ..@....@@@..
 ............
-ENDCHAR # §Ã
+ENDCHAR # „Å¨
 STARTCHAR 244d
 ENCODING 9293
 SWIDTH 960 0
@@ -796,7 +796,7 @@ BITMAP
 @.@@..@..@@.
 ...@...@@...
 ............
-ENDCHAR # §Õ
+ENDCHAR # „Å≠
 STARTCHAR 244e
 ENCODING 9294
 SWIDTH 960 0
@@ -815,7 +815,7 @@ BITMAP
 .....@@.....
 ............
 ............
-ENDCHAR # §Œ
+ENDCHAR # „ÅÆ
 STARTCHAR 244f
 ENCODING 9295
 SWIDTH 960 0
@@ -834,7 +834,7 @@ BITMAP
 .@@.@...@.@.
 ..@..@@@....
 ............
-ENDCHAR # §œ
+ENDCHAR # „ÅØ
 STARTCHAR 2450
 ENCODING 9296
 SWIDTH 960 0
@@ -853,7 +853,7 @@ BITMAP
 .@@.@...@.@.
 ..@..@@@....
 ............
-ENDCHAR # §–
+ENDCHAR # „Å∞
 STARTCHAR 2451
 ENCODING 9297
 SWIDTH 960 0
@@ -872,7 +872,7 @@ BITMAP
 .@@.@...@.@.
 ..@..@@@....
 ............
-ENDCHAR # §—
+ENDCHAR # „Å±
 STARTCHAR 2452
 ENCODING 9298
 SWIDTH 960 0
@@ -891,7 +891,7 @@ BITMAP
 ...@...@....
 ....@@@.....
 ............
-ENDCHAR # §“
+ENDCHAR # „Å≤
 STARTCHAR 2453
 ENCODING 9299
 SWIDTH 960 0
@@ -910,7 +910,7 @@ BITMAP
 ...@...@....
 ....@@@.....
 ............
-ENDCHAR # §”
+ENDCHAR # „Å≥
 STARTCHAR 2454
 ENCODING 9300
 SWIDTH 960 0
@@ -929,7 +929,7 @@ BITMAP
 ...@...@....
 ....@@@.....
 ............
-ENDCHAR # §‘
+ENDCHAR # „Å¥
 STARTCHAR 2455
 ENCODING 9301
 SWIDTH 960 0
@@ -948,7 +948,7 @@ BITMAP
 .@..@..@....
 .....@@.....
 ............
-ENDCHAR # §’
+ENDCHAR # „Åµ
 STARTCHAR 2456
 ENCODING 9302
 SWIDTH 960 0
@@ -967,7 +967,7 @@ BITMAP
 .@..@..@....
 .....@@.....
 ............
-ENDCHAR # §÷
+ENDCHAR # „Å∂
 STARTCHAR 2457
 ENCODING 9303
 SWIDTH 960 0
@@ -986,7 +986,7 @@ BITMAP
 .@..@..@....
 .....@@.....
 ............
-ENDCHAR # §◊
+ENDCHAR # „Å∑
 STARTCHAR 2458
 ENCODING 9304
 SWIDTH 960 0
@@ -1005,7 +1005,7 @@ BITMAP
 ............
 ............
 ............
-ENDCHAR # §ÿ
+ENDCHAR # „Å∏
 STARTCHAR 2459
 ENCODING 9305
 SWIDTH 960 0
@@ -1024,7 +1024,7 @@ BITMAP
 ............
 ............
 ............
-ENDCHAR # §Ÿ
+ENDCHAR # „Åπ
 STARTCHAR 245a
 ENCODING 9306
 SWIDTH 960 0
@@ -1043,7 +1043,7 @@ BITMAP
 ............
 ............
 ............
-ENDCHAR # §⁄
+ENDCHAR # „Å∫
 STARTCHAR 245b
 ENCODING 9307
 SWIDTH 960 0
@@ -1062,7 +1062,7 @@ BITMAP
 ..@.@...@.@.
 ..@..@@@....
 ............
-ENDCHAR # §€
+ENDCHAR # „Åª
 STARTCHAR 245c
 ENCODING 9308
 SWIDTH 960 0
@@ -1081,7 +1081,7 @@ BITMAP
 ..@.@...@.@.
 ..@..@@@....
 ............
-ENDCHAR # §‹
+ENDCHAR # „Åº
 STARTCHAR 245d
 ENCODING 9309
 SWIDTH 960 0
@@ -1100,7 +1100,7 @@ BITMAP
 ..@.@...@.@.
 ..@..@@@....
 ............
-ENDCHAR # §›
+ENDCHAR # „ÅΩ
 STARTCHAR 245e
 ENCODING 9310
 SWIDTH 960 0
@@ -1119,7 +1119,7 @@ BITMAP
 ..@...@..@..
 ...@@@......
 ............
-ENDCHAR # §ﬁ
+ENDCHAR # „Åæ
 STARTCHAR 245f
 ENCODING 9311
 SWIDTH 960 0
@@ -1138,7 +1138,7 @@ BITMAP
 ..@....@....
 ......@.....
 ............
-ENDCHAR # §ﬂ
+ENDCHAR # „Åø
 STARTCHAR 2460
 ENCODING 9312
 SWIDTH 960 0
@@ -1157,7 +1157,7 @@ BITMAP
 ...@.....@..
 ....@@@@@...
 ............
-ENDCHAR # §‡
+ENDCHAR # „ÇÄ
 STARTCHAR 2461
 ENCODING 9313
 SWIDTH 960 0
@@ -1176,7 +1176,7 @@ BITMAP
 ..@@....@...
 ......@@....
 ............
-ENDCHAR # §·
+ENDCHAR # „ÇÅ
 STARTCHAR 2462
 ENCODING 9314
 SWIDTH 960 0
@@ -1195,7 +1195,7 @@ BITMAP
 ....@..@....
 .....@@.....
 ............
-ENDCHAR # §‚
+ENDCHAR # „ÇÇ
 STARTCHAR 2464
 ENCODING 9316
 SWIDTH 960 0
@@ -1214,7 +1214,7 @@ BITMAP
 .....@......
 .....@......
 ............
-ENDCHAR # §‰
+ENDCHAR # „ÇÑ
 STARTCHAR 2466
 ENCODING 9318
 SWIDTH 960 0
@@ -1233,7 +1233,7 @@ BITMAP
 .....@......
 ....@.......
 ............
-ENDCHAR # §Ê
+ENDCHAR # „ÇÜ
 STARTCHAR 2468
 ENCODING 9320
 SWIDTH 960 0
@@ -1252,7 +1252,7 @@ BITMAP
 .@...@..@@..
 ..@@@.......
 ............
-ENDCHAR # §Ë
+ENDCHAR # „Çà
 STARTCHAR 2469
 ENCODING 9321
 SWIDTH 960 0
@@ -1271,7 +1271,7 @@ BITMAP
 ......@@....
 ...@@@......
 ............
-ENDCHAR # §È
+ENDCHAR # „Çâ
 STARTCHAR 246a
 ENCODING 9322
 SWIDTH 960 0
@@ -1290,7 +1290,7 @@ BITMAP
 ......@.....
 .....@......
 ............
-ENDCHAR # §Í
+ENDCHAR # „Çä
 STARTCHAR 246b
 ENCODING 9323
 SWIDTH 960 0
@@ -1309,7 +1309,7 @@ BITMAP
 ...@..@@....
 ....@@@.....
 ............
-ENDCHAR # §Î
+ENDCHAR # „Çã
 STARTCHAR 246c
 ENCODING 9324
 SWIDTH 960 0
@@ -1328,7 +1328,7 @@ BITMAP
 @.@@.....@@.
 ...@........
 ............
-ENDCHAR # §Ï
+ENDCHAR # „Çå
 STARTCHAR 246d
 ENCODING 9325
 SWIDTH 960 0
@@ -1347,7 +1347,7 @@ BITMAP
 ......@@....
 ....@@......
 ............
-ENDCHAR # §Ì
+ENDCHAR # „Çç
 STARTCHAR 246e
 ENCODING 9326
 SWIDTH 960 0
@@ -1366,7 +1366,7 @@ BITMAP
 ..@.@...@...
 ....@..@....
 ............
-ENDCHAR # §Ó
+ENDCHAR # „Çé
 STARTCHAR 246f
 ENCODING 9327
 SWIDTH 960 0
@@ -1385,7 +1385,7 @@ BITMAP
 @.@@...@@...
 ...@........
 ............
-ENDCHAR # §Ô
+ENDCHAR # „Çè
 STARTCHAR 2470
 ENCODING 9328
 SWIDTH 960 0
@@ -1404,7 +1404,7 @@ BITMAP
 ..@@.@..@@..
 ..@...@@@...
 ............
-ENDCHAR # §
+ENDCHAR # „Çê
 STARTCHAR 2471
 ENCODING 9329
 SWIDTH 960 0
@@ -1423,7 +1423,7 @@ BITMAP
 ..@.@@..@@..
 .@....@@..@.
 ............
-ENDCHAR # §Ò
+ENDCHAR # „Çë
 STARTCHAR 2472
 ENCODING 9330
 SWIDTH 960 0
@@ -1442,7 +1442,7 @@ BITMAP
 ...@........
 ....@@@@@...
 ............
-ENDCHAR # §Ú
+ENDCHAR # „Çí
 STARTCHAR 2473
 ENCODING 9331
 SWIDTH 960 0
@@ -1461,7 +1461,7 @@ BITMAP
 ..@...@..@..
 .@.....@@...
 ............
-ENDCHAR # §Û
+ENDCHAR # „Çì
 STARTCHAR 2521
 ENCODING 9505
 SWIDTH 960 0
@@ -1480,7 +1480,7 @@ BITMAP
 ....@.......
 ...@........
 ............
-ENDCHAR # •°
+ENDCHAR # „Ç°
 STARTCHAR 2522
 ENCODING 9506
 SWIDTH 960 0
@@ -1499,7 +1499,7 @@ BITMAP
 ....@.......
 ...@........
 ............
-ENDCHAR # •¢
+ENDCHAR # „Ç¢
 STARTCHAR 2523
 ENCODING 9507
 SWIDTH 960 0
@@ -1518,7 +1518,7 @@ BITMAP
 .....@......
 .....@......
 ............
-ENDCHAR # •£
+ENDCHAR # „Ç£
 STARTCHAR 2524
 ENCODING 9508
 SWIDTH 960 0
@@ -1537,7 +1537,7 @@ BITMAP
 ......@.....
 ......@.....
 ............
-ENDCHAR # •§
+ENDCHAR # „Ç§
 STARTCHAR 2526
 ENCODING 9510
 SWIDTH 960 0
@@ -1556,7 +1556,7 @@ BITMAP
 ......@.....
 ....@@......
 ............
-ENDCHAR # •¶
+ENDCHAR # „Ç¶
 STARTCHAR 2527
 ENCODING 9511
 SWIDTH 960 0
@@ -1575,7 +1575,7 @@ BITMAP
 ..@@@@..@...
 ............
 ............
-ENDCHAR # •ß
+ENDCHAR # „Çß
 STARTCHAR 2528
 ENCODING 9512
 SWIDTH 960 0
@@ -1594,7 +1594,7 @@ BITMAP
 .@@@@.....@.
 ............
 ............
-ENDCHAR # •®
+ENDCHAR # „Ç®
 STARTCHAR 252a
 ENCODING 9514
 SWIDTH 960 0
@@ -1613,7 +1613,7 @@ BITMAP
 .@....@@....
 .......@....
 ............
-ENDCHAR # •™
+ENDCHAR # „Ç™
 STARTCHAR 252b
 ENCODING 9515
 SWIDTH 960 0
@@ -1632,7 +1632,7 @@ BITMAP
 ..@...@.@...
 .@.....@....
 ............
-ENDCHAR # •´
+ENDCHAR # „Ç´
 STARTCHAR 252c
 ENCODING 9516
 SWIDTH 960 0
@@ -1651,7 +1651,7 @@ BITMAP
 ..@...@.@...
 .@.....@....
 ............
-ENDCHAR # •¨
+ENDCHAR # „Ç¨
 STARTCHAR 252d
 ENCODING 9517
 SWIDTH 960 0
@@ -1670,7 +1670,7 @@ BITMAP
 ......@.....
 ......@.....
 ............
-ENDCHAR # •≠
+ENDCHAR # „Ç≠
 STARTCHAR 252e
 ENCODING 9518
 SWIDTH 960 0
@@ -1689,7 +1689,7 @@ BITMAP
 ......@.....
 ......@.....
 ............
-ENDCHAR # •Æ
+ENDCHAR # „ÇÆ
 STARTCHAR 252f
 ENCODING 9519
 SWIDTH 960 0
@@ -1708,7 +1708,7 @@ BITMAP
 ....@.......
 ...@........
 ............
-ENDCHAR # •Ø
+ENDCHAR # „ÇØ
 STARTCHAR 2530
 ENCODING 9520
 SWIDTH 960 0
@@ -1727,7 +1727,7 @@ BITMAP
 ...@........
 ..@.........
 ............
-ENDCHAR # •∞
+ENDCHAR # „Ç∞
 STARTCHAR 2531
 ENCODING 9521
 SWIDTH 960 0
@@ -1746,7 +1746,7 @@ BITMAP
 .....@......
 ....@.......
 ............
-ENDCHAR # •±
+ENDCHAR # „Ç±
 STARTCHAR 2532
 ENCODING 9522
 SWIDTH 960 0
@@ -1765,7 +1765,7 @@ BITMAP
 .....@......
 ....@.......
 ............
-ENDCHAR # •≤
+ENDCHAR # „Ç≤
 STARTCHAR 2533
 ENCODING 9523
 SWIDTH 960 0
@@ -1784,7 +1784,7 @@ BITMAP
 ..@@@...@...
 ............
 ............
-ENDCHAR # •≥
+ENDCHAR # „Ç≥
 STARTCHAR 2534
 ENCODING 9524
 SWIDTH 960 0
@@ -1803,7 +1803,7 @@ BITMAP
 ..@@@...@...
 ............
 ............
-ENDCHAR # •¥
+ENDCHAR # „Ç¥
 STARTCHAR 2535
 ENCODING 9525
 SWIDTH 960 0
@@ -1822,7 +1822,7 @@ BITMAP
 ......@.....
 .....@......
 ............
-ENDCHAR # •µ
+ENDCHAR # „Çµ
 STARTCHAR 2536
 ENCODING 9526
 SWIDTH 960 0
@@ -1841,7 +1841,7 @@ BITMAP
 ......@.....
 .....@......
 ............
-ENDCHAR # •∂
+ENDCHAR # „Ç∂
 STARTCHAR 2537
 ENCODING 9527
 SWIDTH 960 0
@@ -1860,7 +1860,7 @@ BITMAP
 ..@..@@.....
 ...@@.......
 ............
-ENDCHAR # •∑
+ENDCHAR # „Ç∑
 STARTCHAR 2538
 ENCODING 9528
 SWIDTH 960 0
@@ -1879,7 +1879,7 @@ BITMAP
 ..@..@@.....
 ...@@.......
 ............
-ENDCHAR # •∏
+ENDCHAR # „Ç∏
 STARTCHAR 2539
 ENCODING 9529
 SWIDTH 960 0
@@ -1898,7 +1898,7 @@ BITMAP
 ...@@.....@.
 .@@.......@.
 ............
-ENDCHAR # •π
+ENDCHAR # „Çπ
 STARTCHAR 253a
 ENCODING 9530
 SWIDTH 960 0
@@ -1917,7 +1917,7 @@ BITMAP
 ...@@.....@.
 .@@.......@.
 ............
-ENDCHAR # •∫
+ENDCHAR # „Ç∫
 STARTCHAR 253b
 ENCODING 9531
 SWIDTH 960 0
@@ -1936,7 +1936,7 @@ BITMAP
 ...@........
 ....@@@@@...
 ............
-ENDCHAR # •ª
+ENDCHAR # „Çª
 STARTCHAR 253c
 ENCODING 9532
 SWIDTH 960 0
@@ -1955,7 +1955,7 @@ BITMAP
 ...@........
 ....@@@@@...
 ............
-ENDCHAR # •º
+ENDCHAR # „Çº
 STARTCHAR 253d
 ENCODING 9533
 SWIDTH 960 0
@@ -1974,7 +1974,7 @@ BITMAP
 .....@......
 ....@.......
 ............
-ENDCHAR # •Ω
+ENDCHAR # „ÇΩ
 STARTCHAR 253e
 ENCODING 9534
 SWIDTH 960 0
@@ -1993,7 +1993,7 @@ BITMAP
 ....@.......
 ...@........
 ............
-ENDCHAR # •æ
+ENDCHAR # „Çæ
 STARTCHAR 253f
 ENCODING 9535
 SWIDTH 960 0
@@ -2012,7 +2012,7 @@ BITMAP
 ...@@.......
 .@@.........
 ............
-ENDCHAR # •ø
+ENDCHAR # „Çø
 STARTCHAR 2540
 ENCODING 9536
 SWIDTH 960 0
@@ -2031,7 +2031,7 @@ BITMAP
 ..@@........
 @@..........
 ............
-ENDCHAR # •¿
+ENDCHAR # „ÉÄ
 STARTCHAR 2541
 ENCODING 9537
 SWIDTH 960 0
@@ -2050,7 +2050,7 @@ BITMAP
 .....@......
 ....@.......
 ............
-ENDCHAR # •¡
+ENDCHAR # „ÉÅ
 STARTCHAR 2542
 ENCODING 9538
 SWIDTH 960 0
@@ -2069,7 +2069,7 @@ BITMAP
 .....@......
 ....@.......
 ............
-ENDCHAR # •¬
+ENDCHAR # „ÉÇ
 STARTCHAR 2543
 ENCODING 9539
 SWIDTH 960 0
@@ -2088,7 +2088,7 @@ BITMAP
 ......@.....
 .....@......
 ............
-ENDCHAR # •√
+ENDCHAR # „ÉÉ
 STARTCHAR 2544
 ENCODING 9540
 SWIDTH 960 0
@@ -2107,7 +2107,7 @@ BITMAP
 .....@......
 ....@.......
 ............
-ENDCHAR # •ƒ
+ENDCHAR # „ÉÑ
 STARTCHAR 2546
 ENCODING 9542
 SWIDTH 960 0
@@ -2126,7 +2126,7 @@ BITMAP
 ....@.......
 ...@........
 ............
-ENDCHAR # •∆
+ENDCHAR # „ÉÜ
 STARTCHAR 2547
 ENCODING 9543
 SWIDTH 960 0
@@ -2145,7 +2145,7 @@ BITMAP
 ....@.......
 ...@........
 ............
-ENDCHAR # •«
+ENDCHAR # „Éá
 STARTCHAR 2548
 ENCODING 9544
 SWIDTH 960 0
@@ -2164,7 +2164,7 @@ BITMAP
 ...@........
 ...@........
 ............
-ENDCHAR # •»
+ENDCHAR # „Éà
 STARTCHAR 2549
 ENCODING 9545
 SWIDTH 960 0
@@ -2183,7 +2183,7 @@ BITMAP
 ...@........
 ...@........
 ............
-ENDCHAR # •…
+ENDCHAR # „Éâ
 STARTCHAR 254a
 ENCODING 9546
 SWIDTH 960 0
@@ -2202,7 +2202,7 @@ BITMAP
 ....@.......
 ...@........
 ............
-ENDCHAR # • 
+ENDCHAR # „Éä
 STARTCHAR 254b
 ENCODING 9547
 SWIDTH 960 0
@@ -2221,7 +2221,7 @@ BITMAP
 ............
 ............
 ............
-ENDCHAR # •À
+ENDCHAR # „Éã
 STARTCHAR 254c
 ENCODING 9548
 SWIDTH 960 0
@@ -2240,7 +2240,7 @@ BITMAP
 ...@@.....@.
 .@@.........
 ............
-ENDCHAR # •Ã
+ENDCHAR # „Éå
 STARTCHAR 254d
 ENCODING 9549
 SWIDTH 960 0
@@ -2259,7 +2259,7 @@ BITMAP
 .....@......
 .....@......
 ............
-ENDCHAR # •Õ
+ENDCHAR # „Éç
 STARTCHAR 254e
 ENCODING 9550
 SWIDTH 960 0
@@ -2278,7 +2278,7 @@ BITMAP
 ....@.......
 ...@........
 ............
-ENDCHAR # •Œ
+ENDCHAR # „Éé
 STARTCHAR 254f
 ENCODING 9551
 SWIDTH 960 0
@@ -2297,7 +2297,7 @@ BITMAP
 @.........@.
 ............
 ............
-ENDCHAR # •œ
+ENDCHAR # „Éè
 STARTCHAR 2550
 ENCODING 9552
 SWIDTH 960 0
@@ -2316,7 +2316,7 @@ BITMAP
 @.........@.
 ............
 ............
-ENDCHAR # •–
+ENDCHAR # „Éê
 STARTCHAR 2551
 ENCODING 9553
 SWIDTH 960 0
@@ -2335,7 +2335,7 @@ BITMAP
 @.........@.
 ............
 ............
-ENDCHAR # •—
+ENDCHAR # „Éë
 STARTCHAR 2552
 ENCODING 9554
 SWIDTH 960 0
@@ -2354,7 +2354,7 @@ BITMAP
 ...@@@@@@@..
 ............
 ............
-ENDCHAR # •“
+ENDCHAR # „Éí
 STARTCHAR 2553
 ENCODING 9555
 SWIDTH 960 0
@@ -2373,7 +2373,7 @@ BITMAP
 ...@@@@@@@..
 ............
 ............
-ENDCHAR # •”
+ENDCHAR # „Éì
 STARTCHAR 2554
 ENCODING 9556
 SWIDTH 960 0
@@ -2392,7 +2392,7 @@ BITMAP
 ...@@@@@@@..
 ............
 ............
-ENDCHAR # •‘
+ENDCHAR # „Éî
 STARTCHAR 2555
 ENCODING 9557
 SWIDTH 960 0
@@ -2411,7 +2411,7 @@ BITMAP
 .....@......
 ...@@.......
 ............
-ENDCHAR # •’
+ENDCHAR # „Éï
 STARTCHAR 2556
 ENCODING 9558
 SWIDTH 960 0
@@ -2430,7 +2430,7 @@ BITMAP
 ....@.......
 ..@@........
 ............
-ENDCHAR # •÷
+ENDCHAR # „Éñ
 STARTCHAR 2557
 ENCODING 9559
 SWIDTH 960 0
@@ -2449,7 +2449,7 @@ BITMAP
 ....@.......
 ..@@........
 ............
-ENDCHAR # •◊
+ENDCHAR # „Éó
 STARTCHAR 2558
 ENCODING 9560
 SWIDTH 960 0
@@ -2468,7 +2468,7 @@ BITMAP
 ............
 ............
 ............
-ENDCHAR # •ÿ
+ENDCHAR # „Éò
 STARTCHAR 2559
 ENCODING 9561
 SWIDTH 960 0
@@ -2487,7 +2487,7 @@ BITMAP
 ............
 ............
 ............
-ENDCHAR # •Ÿ
+ENDCHAR # „Éô
 STARTCHAR 255a
 ENCODING 9562
 SWIDTH 960 0
@@ -2506,7 +2506,7 @@ BITMAP
 ............
 ............
 ............
-ENDCHAR # •⁄
+ENDCHAR # „Éö
 STARTCHAR 255b
 ENCODING 9563
 SWIDTH 960 0
@@ -2525,7 +2525,7 @@ BITMAP
 .@..@@......
 .....@......
 ............
-ENDCHAR # •€
+ENDCHAR # „Éõ
 STARTCHAR 255c
 ENCODING 9564
 SWIDTH 960 0
@@ -2544,7 +2544,7 @@ BITMAP
 .@..@@......
 .....@......
 ............
-ENDCHAR # •‹
+ENDCHAR # „Éú
 STARTCHAR 255d
 ENCODING 9565
 SWIDTH 960 0
@@ -2563,7 +2563,7 @@ BITMAP
 .@..@@......
 .....@......
 ............
-ENDCHAR # •›
+ENDCHAR # „Éù
 STARTCHAR 255e
 ENCODING 9566
 SWIDTH 960 0
@@ -2582,7 +2582,7 @@ BITMAP
 .......@....
 ............
 ............
-ENDCHAR # •ﬁ
+ENDCHAR # „Éû
 STARTCHAR 255f
 ENCODING 9567
 SWIDTH 960 0
@@ -2601,7 +2601,7 @@ BITMAP
 .....@@.....
 .......@@...
 ............
-ENDCHAR # •ﬂ
+ENDCHAR # „Éü
 STARTCHAR 2560
 ENCODING 9568
 SWIDTH 960 0
@@ -2620,7 +2620,7 @@ BITMAP
 .@@@@....@..
 .........@..
 ............
-ENDCHAR # •‡
+ENDCHAR # „É†
 STARTCHAR 2561
 ENCODING 9569
 SWIDTH 960 0
@@ -2639,7 +2639,7 @@ BITMAP
 ....@@......
 ..@@........
 ............
-ENDCHAR # •·
+ENDCHAR # „É°
 STARTCHAR 2562
 ENCODING 9570
 SWIDTH 960 0
@@ -2658,7 +2658,7 @@ BITMAP
 .....@@@@@..
 ............
 ............
-ENDCHAR # •‚
+ENDCHAR # „É¢
 STARTCHAR 2564
 ENCODING 9572
 SWIDTH 960 0
@@ -2677,7 +2677,7 @@ BITMAP
 .....@......
 .....@......
 ............
-ENDCHAR # •‰
+ENDCHAR # „É§
 STARTCHAR 2565
 ENCODING 9573
 SWIDTH 960 0
@@ -2696,7 +2696,7 @@ BITMAP
 ..@@@@@@@...
 ............
 ............
-ENDCHAR # •Â
+ENDCHAR # „É•
 STARTCHAR 2566
 ENCODING 9574
 SWIDTH 960 0
@@ -2715,7 +2715,7 @@ BITMAP
 .@@@@.....@.
 ............
 ............
-ENDCHAR # •Ê
+ENDCHAR # „É¶
 STARTCHAR 2567
 ENCODING 9575
 SWIDTH 960 0
@@ -2734,7 +2734,7 @@ BITMAP
 .....@@@....
 ..@@@...@...
 ............
-ENDCHAR # •Á
+ENDCHAR # „Éß
 STARTCHAR 2568
 ENCODING 9576
 SWIDTH 960 0
@@ -2753,7 +2753,7 @@ BITMAP
 .....@@@@...
 ..@@@....@..
 ............
-ENDCHAR # •Ë
+ENDCHAR # „É®
 STARTCHAR 2569
 ENCODING 9577
 SWIDTH 960 0
@@ -2772,7 +2772,7 @@ BITMAP
 .....@@.....
 ...@@.......
 ............
-ENDCHAR # •È
+ENDCHAR # „É©
 STARTCHAR 256a
 ENCODING 9578
 SWIDTH 960 0
@@ -2791,7 +2791,7 @@ BITMAP
 ......@.....
 .....@......
 ............
-ENDCHAR # •Í
+ENDCHAR # „É™
 STARTCHAR 256b
 ENCODING 9579
 SWIDTH 960 0
@@ -2810,7 +2810,7 @@ BITMAP
 ..@...@@....
 .@....@.....
 ............
-ENDCHAR # •Î
+ENDCHAR # „É´
 STARTCHAR 256c
 ENCODING 9580
 SWIDTH 960 0
@@ -2829,7 +2829,7 @@ BITMAP
 ..@.@@......
 ..@@........
 ............
-ENDCHAR # •Ï
+ENDCHAR # „É¨
 STARTCHAR 256d
 ENCODING 9581
 SWIDTH 960 0
@@ -2848,7 +2848,7 @@ BITMAP
 ..@@.....@..
 ............
 ............
-ENDCHAR # •Ì
+ENDCHAR # „É≠
 STARTCHAR 256e
 ENCODING 9582
 SWIDTH 960 0
@@ -2867,7 +2867,7 @@ BITMAP
 .....@......
 ...@@.......
 ............
-ENDCHAR # •Ó
+ENDCHAR # „ÉÆ
 STARTCHAR 256f
 ENCODING 9583
 SWIDTH 960 0
@@ -2886,7 +2886,7 @@ BITMAP
 ......@.....
 ....@@......
 ............
-ENDCHAR # •Ô
+ENDCHAR # „ÉØ
 STARTCHAR 2570
 ENCODING 9584
 SWIDTH 960 0
@@ -2905,7 +2905,7 @@ BITMAP
 .......@....
 .......@....
 ............
-ENDCHAR # •
+ENDCHAR # „É∞
 STARTCHAR 2571
 ENCODING 9585
 SWIDTH 960 0
@@ -2924,7 +2924,7 @@ BITMAP
 @@@@.....@..
 ............
 ............
-ENDCHAR # •Ò
+ENDCHAR # „É±
 STARTCHAR 2572
 ENCODING 9586
 SWIDTH 960 0
@@ -2943,7 +2943,7 @@ BITMAP
 ....@@......
 ..@@........
 ............
-ENDCHAR # •Ú
+ENDCHAR # „É≤
 STARTCHAR 2573
 ENCODING 9587
 SWIDTH 960 0
@@ -2962,7 +2962,7 @@ BITMAP
 .@..@@......
 ..@@........
 ............
-ENDCHAR # •Û
+ENDCHAR # „É≥
 STARTCHAR 2574
 ENCODING 9588
 SWIDTH 960 0
@@ -2981,7 +2981,7 @@ BITMAP
 ......@.....
 ....@@......
 ............
-ENDCHAR # •Ù
+ENDCHAR # „É¥
 STARTCHAR 2576
 ENCODING 9590
 SWIDTH 960 0
@@ -3000,7 +3000,7 @@ BITMAP
 .....@......
 ....@.......
 ............
-ENDCHAR # •ˆ
+ENDCHAR # „É∂
 STARTCHAR 3026
 ENCODING 12326
 SWIDTH 960 0
@@ -3019,7 +3019,7 @@ BITMAP
 ....@@@.....
 ...@@.@@....
 @@@.....@@@.
-ENDCHAR # ∞¶
+ENDCHAR # ÊÑõ
 STARTCHAR 3028
 ENCODING 12328
 SWIDTH 960 0
@@ -3038,7 +3038,7 @@ BITMAP
 ..@.@@...@..
 .@...@@@@@..
 @....@...@..
-ENDCHAR # ∞®
+ENDCHAR # Âß∂
 STARTCHAR 3038
 ENCODING 12344
 SWIDTH 960 0
@@ -3057,7 +3057,7 @@ BITMAP
 ...@..@...@.
 ..@...@...@.
 .@.....@@@@.
-ENDCHAR # ∞∏
+ENDCHAR # ÂÆõ
 STARTCHAR 303e
 ENCODING 12350
 SWIDTH 960 0
@@ -3076,7 +3076,7 @@ BITMAP
 .@@.@.@..@..
 .@.@..@@@@..
 @.....@..@..
-ENDCHAR # ∞æ
+ENDCHAR # ÈÆé
 STARTCHAR 3041
 ENCODING 12353
 SWIDTH 960 0
@@ -3095,7 +3095,7 @@ BITMAP
 ..@..@...@..
 ..@..@@@@@..
 ..@..@...@..
-ENDCHAR # ∞¡
+ENDCHAR # Ë¢∑
 STARTCHAR 3042
 ENCODING 12354
 SWIDTH 960 0
@@ -3114,7 +3114,7 @@ BITMAP
 .....@@.....
 ...@@..@@...
 .@@......@..
-ENDCHAR # ∞¬
+ENDCHAR # ÂÆâ
 STARTCHAR 3046
 ENCODING 12358
 SWIDTH 960 0
@@ -3133,7 +3133,7 @@ BITMAP
 ..@@.@.@@...
 @@...@...@@.
 .....@......
-ENDCHAR # ∞∆
+ENDCHAR # Ê°à
 STARTCHAR 3049
 ENCODING 12361
 SWIDTH 960 0
@@ -3152,7 +3152,7 @@ BITMAP
 ..@.....@...
 ..@@@@@@@...
 ..@.....@...
-ENDCHAR # ∞…
+ENDCHAR # Êùè
 STARTCHAR 3125
 ENCODING 12581
 SWIDTH 960 0
@@ -3171,7 +3171,7 @@ BITMAP
 @..@....@...
 ........@...
 .......@@...
-ENDCHAR # ±•
+ENDCHAR # Âêã
 STARTCHAR 3126
 ENCODING 12582
 SWIDTH 960 0
@@ -3190,7 +3190,7 @@ BITMAP
 .@.@.....@..
 @..@@@@@@@..
 ...@.....@..
-ENDCHAR # ±¶
+ENDCHAR # Âè≥
 STARTCHAR 3127
 ENCODING 12583
 SWIDTH 960 0
@@ -3209,7 +3209,7 @@ BITMAP
 .....@......
 .....@......
 ....@@......
-ENDCHAR # ±ß
+ENDCHAR # ÂÆá
 STARTCHAR 3130
 ENCODING 12592
 SWIDTH 960 0
@@ -3228,7 +3228,7 @@ BITMAP
 .@@@.@..@...
 .@.@.@..@...
 .....@@@@@@.
-ENDCHAR # ±∞
+ENDCHAR # Á¢ì
 STARTCHAR 3131
 ENCODING 12593
 SWIDTH 960 0
@@ -3247,7 +3247,7 @@ BITMAP
 ..@......@..
 ..@@@@@@@@..
 ..@......@..
-ENDCHAR # ±±
+ENDCHAR # Ëáº
 STARTCHAR 3133
 ENCODING 12595
 SWIDTH 960 0
@@ -3266,7 +3266,7 @@ BITMAP
 @.@.@.@.@@..
 ...@.@@.@...
 ..@.@@@@@@@.
-ENDCHAR # ±≥
+ENDCHAR # Âòò
 STARTCHAR 3134
 ENCODING 12596
 SWIDTH 960 0
@@ -3285,7 +3285,7 @@ BITMAP
 @@@@.@@@@@..
 @..@..@..@..
 ....@@....@.
-ENDCHAR # ±¥
+ENDCHAR # ÂîÑ
 STARTCHAR 3144
 ENCODING 12612
 SWIDTH 960 0
@@ -3304,7 +3304,7 @@ BITMAP
 .@......@...
 .@......@...
 .@@@@@@@@...
-ENDCHAR # ±ƒ
+ENDCHAR # Âñ∂
 STARTCHAR 3149
 ENCODING 12617
 SWIDTH 960 0
@@ -3323,7 +3323,7 @@ BITMAP
 ..@..@..@...
 @@...@...@@.
 .....@......
-ENDCHAR # ±…
+ENDCHAR # Ê†Ñ
 STARTCHAR 3163
 ENCODING 12643
 SWIDTH 960 0
@@ -3342,7 +3342,7 @@ BITMAP
 ..@@...@....
 ....@@@.....
 .@@@...@@...
-ENDCHAR # ±„
+ENDCHAR # ÂÆ¥
 STARTCHAR 3168
 ENCODING 12648
 SWIDTH 960 0
@@ -3361,7 +3361,7 @@ BITMAP
 .@..@...@...
 @...@@@@@...
 @...@...@...
-ENDCHAR # ±Ë
+ENDCHAR # Ê≤ø
 STARTCHAR 3174
 ENCODING 12660
 SWIDTH 960 0
@@ -3380,7 +3380,7 @@ BITMAP
 .@@.@@...@..
 ..@@.@@@@@..
 @@...@...@..
-ENDCHAR # ±Ù
+ENDCHAR # Èâõ
 STARTCHAR 317a
 ENCODING 12666
 SWIDTH 960 0
@@ -3399,7 +3399,7 @@ BITMAP
 @.........@.
 @@@@@@@@@@@.
 @.........@.
-ENDCHAR # ±˙
+ENDCHAR # Âáπ
 STARTCHAR 3229
 ENCODING 12841
 SWIDTH 960 0
@@ -3418,7 +3418,7 @@ BITMAP
 ...@.@.@.@..
 .@..@.@..@..
 @......@@...
-ENDCHAR # ≤©
+ENDCHAR # È¥¨
 STARTCHAR 3241
 ENCODING 12865
 SWIDTH 960 0
@@ -3437,7 +3437,7 @@ BITMAP
 ..@.@.@.@.@.
 ..@.@@@@@@@.
 ..@.@.....@.
-ENDCHAR # ≤¡
+ENDCHAR # ‰æ°
 STARTCHAR 3243
 ENCODING 12867
 SWIDTH 960 0
@@ -3456,7 +3456,7 @@ BITMAP
 .@...@.@@@@.
 .@...@.@..@.
 @..@@.......
-ENDCHAR # ≤√
+ENDCHAR # Âä†
 STARTCHAR 3248
 ENCODING 12872
 SWIDTH 960 0
@@ -3475,7 +3475,7 @@ BITMAP
 ...@..@..@..
 .@@...@...@.
 ....@@......
-ENDCHAR # ≤»
+ENDCHAR # ÂÆ∂
 STARTCHAR 3249
 ENCODING 12873
 SWIDTH 960 0
@@ -3494,7 +3494,7 @@ BITMAP
 @@.@@@@@@.@@
 ....@...@...
 ..@@..@@....
-ENDCHAR # ≤…
+ENDCHAR # ÂØ°
 STARTCHAR 3258
 ENCODING 12888
 SWIDTH 960 0
@@ -3513,7 +3513,7 @@ BITMAP
 .@...@.@@@@.
 .@...@.@..@.
 @..@@.......
-ENDCHAR # ≤ÿ
+ENDCHAR # ËåÑ
 STARTCHAR 3268
 ENCODING 12904
 SWIDTH 960 0
@@ -3532,7 +3532,7 @@ BITMAP
 @.........@.
 @@@@@@@@@@@.
 @.........@.
-ENDCHAR # ≤Ë
+ENDCHAR # Áîª
 STARTCHAR 3273
 ENCODING 12915
 SWIDTH 960 0
@@ -3551,7 +3551,7 @@ BITMAP
 .@........@.
 .@@@@@@@@@@.
 .@........@.
-ENDCHAR # ≤Û
+ENDCHAR # Âõû
 STARTCHAR 3331
 ENCODING 13105
 SWIDTH 960 0
@@ -3570,7 +3570,7 @@ BITMAP
 @..@..@@@...
 .....@@..@..
 ...@@.....@.
-ENDCHAR # ≥±
+ENDCHAR # Âí≥
 STARTCHAR 3332
 ENCODING 13106
 SWIDTH 960 0
@@ -3589,7 +3589,7 @@ BITMAP
 ..@@@@@@@...
 ..@.....@...
 ..@@@@@@@...
-ENDCHAR # ≥≤
+ENDCHAR # ÂÆ≥
 STARTCHAR 3346
 ENCODING 13126
 SWIDTH 960 0
@@ -3608,7 +3608,7 @@ BITMAP
 ...@....@...
 ...@@@@@@...
 ...@....@...
-ENDCHAR # ≥∆
+ENDCHAR # ÂêÑ
 STARTCHAR 334a
 ENCODING 13130
 SWIDTH 960 0
@@ -3627,7 +3627,7 @@ BITMAP
 @.@...@..@..
 ..@...@@@@..
 ..@...@..@..
-ENDCHAR # ≥ 
+ENDCHAR # Ê†º
 STARTCHAR 334e
 ENCODING 13134
 SWIDTH 960 0
@@ -3646,7 +3646,7 @@ BITMAP
 .@@@.@..@...
 .@.@.@..@...
 .@...@@@@@@.
-ENDCHAR # ≥Œ
+ENDCHAR # Á¢∫
 STARTCHAR 3350
 ENCODING 13136
 SWIDTH 960 0
@@ -3665,7 +3665,7 @@ BITMAP
 ....@.@.....
 ..@@..@...@.
 @@.....@@@@.
-ENDCHAR # ≥–
+ENDCHAR # Ë¶ö
 STARTCHAR 3358
 ENCODING 13144
 SWIDTH 960 0
@@ -3684,7 +3684,7 @@ BITMAP
 .....@......
 .....@......
 ....@@......
-ENDCHAR # ≥ÿ
+ENDCHAR # Â≠¶
 STARTCHAR 3359
 ENCODING 13145
 SWIDTH 960 0
@@ -3703,7 +3703,7 @@ BITMAP
 .@...@...@..
 .@@@@@@@@@..
 .@.......@..
-ENDCHAR # ≥Ÿ
+ENDCHAR # Â≤≥
 STARTCHAR 3366
 ENCODING 13158
 SWIDTH 960 0
@@ -3722,7 +3722,7 @@ BITMAP
 ..@..@...@..
 ..@..@@@@@..
 ..@..@...@..
-ENDCHAR # ≥Ê
+ENDCHAR # ÊÅ∞
 STARTCHAR 3367
 ENCODING 13159
 SWIDTH 960 0
@@ -3741,7 +3741,7 @@ BITMAP
 ..@..@...@..
 ..@..@@@@@..
 .@@..@...@..
-ENDCHAR # ≥Á
+ENDCHAR # Êã¨
 STARTCHAR 3368
 ENCODING 13160
 SWIDTH 960 0
@@ -3760,7 +3760,7 @@ BITMAP
 .@..@....@..
 @...@@@@@@..
 @...@....@..
-ENDCHAR # ≥Ë
+ENDCHAR # Ê¥ª
 STARTCHAR 3370
 ENCODING 13168
 SWIDTH 960 0
@@ -3779,7 +3779,7 @@ BITMAP
 @..@...@....
 .......@....
 .......@....
-ENDCHAR # ≥
+ENDCHAR # Âè∂
 STARTCHAR 337c
 ENCODING 13180
 SWIDTH 960 0
@@ -3798,7 +3798,7 @@ BITMAP
 @.@..@...@..
 ..@..@@@@@..
 ..@..@...@..
-ENDCHAR # ≥¸
+ENDCHAR # Ê†¢
 STARTCHAR 337e
 ENCODING 13182
 SWIDTH 960 0
@@ -3817,7 +3817,7 @@ BITMAP
 ..@@@@@@@...
 ............
 @@@@@@@@@@@.
-ENDCHAR # ≥˛
+ENDCHAR # Ëê±
 STARTCHAR 3430
 ENCODING 13360
 SWIDTH 960 0
@@ -3836,7 +3836,7 @@ BITMAP
 ...@..@...@.
 ..@...@...@.
 @@.....@@@@.
-ENDCHAR # ¥∞
+ENDCHAR # ÂÆå
 STARTCHAR 3431
 ENCODING 13361
 SWIDTH 960 0
@@ -3855,7 +3855,7 @@ BITMAP
 ...@....@...
 ...@@@@@@...
 ...@....@...
-ENDCHAR # ¥±
+ENDCHAR # ÂÆò
 STARTCHAR 3432
 ENCODING 13362
 SWIDTH 960 0
@@ -3874,7 +3874,7 @@ BITMAP
 ..@@@@@@@...
 ...@@.@...@.
 @@@....@@@@.
-ENDCHAR # ¥≤
+ENDCHAR # ÂØõ
 STARTCHAR 343b
 ENCODING 13371
 SWIDTH 960 0
@@ -3893,7 +3893,7 @@ BITMAP
 @.@..@...@..
 ..@..@@@@@..
 ..@..@...@..
-ENDCHAR # ¥ª
+ENDCHAR # Êüë
 STARTCHAR 343d
 ENCODING 13373
 SWIDTH 960 0
@@ -3912,7 +3912,7 @@ BITMAP
 @.@..@....@.
 ..@..@@@@@@.
 ..@..@....@.
-ENDCHAR # ¥Ω
+ENDCHAR # Ê£∫
 STARTCHAR 3445
 ENCODING 13381
 SWIDTH 960 0
@@ -3931,7 +3931,7 @@ BITMAP
 ...@....@...
 ...@@@@@@...
 ...@....@...
-ENDCHAR # ¥≈
+ENDCHAR # Áîò
 STARTCHAR 3450
 ENCODING 13392
 SWIDTH 960 0
@@ -3950,7 +3950,7 @@ BITMAP
 ....@.@.....
 ..@@..@...@.
 @@.....@@@@.
-ENDCHAR # ¥–
+ENDCHAR # Ëéû
 STARTCHAR 3459
 ENCODING 13401
 SWIDTH 960 0
@@ -3969,7 +3969,7 @@ BITMAP
 @@..@.@...@.
 @...@.@@@@@.
 @...@.@...@.
-ENDCHAR # ¥Ÿ
+ENDCHAR # Èô•
 STARTCHAR 345b
 ENCODING 13403
 SWIDTH 960 0
@@ -3988,7 +3988,7 @@ BITMAP
 .@..@.@...@.
 .@.@.@@...@.
 @@@...@@@@@.
-ENDCHAR # ¥€
+ENDCHAR # È§®
 STARTCHAR 3463
 ENCODING 13411
 SWIDTH 960 0
@@ -4007,7 +4007,7 @@ BITMAP
 @@@@.@..@...
 @..@.@@@.@..
 ....@@....@.
-ENDCHAR # ¥„
+ENDCHAR # Áúº
 STARTCHAR 3539
 ENCODING 13625
 SWIDTH 960 0
@@ -4026,7 +4026,7 @@ BITMAP
 ...@...@....
 ...@...@....
 @@@@@@@@@@@.
-ENDCHAR # µπ
+ENDCHAR # ÂÆú
 STARTCHAR 3548
 ENCODING 13640
 SWIDTH 960 0
@@ -4045,7 +4045,7 @@ BITMAP
 ..@.....@...
 ..@@@@@@@...
 ..@.....@...
-ENDCHAR # µ»
+ENDCHAR # Âêâ
 STARTCHAR 354b
 ENCODING 13643
 SWIDTH 960 0
@@ -4064,7 +4064,7 @@ BITMAP
 @.@..@...@..
 ..@..@@@@@..
 ..@..@...@..
-ENDCHAR # µÀ
+ENDCHAR # Ê°î
 STARTCHAR 354d
 ENCODING 13645
 SWIDTH 960 0
@@ -4083,7 +4083,7 @@ BITMAP
 @..@.@...@..
 @..@.@@@@@..
 @@@@.@...@..
-ENDCHAR # µÕ
+ENDCHAR # Ë©∞
 STARTCHAR 354e
 ENCODING 13646
 SWIDTH 960 0
@@ -4102,7 +4102,7 @@ BITMAP
 .@@@@@...@..
 .@...@@@@@..
 .....@...@..
-ENDCHAR # µŒ
+ENDCHAR # Á†ß
 STARTCHAR 3552
 ENCODING 13650
 SWIDTH 960 0
@@ -4121,7 +4121,7 @@ BITMAP
 ...@....@...
 ...@....@...
 ...@@@@@@...
-ENDCHAR # µ“
+ENDCHAR # ÂÆ¢
 STARTCHAR 355b
 ENCODING 13659
 SWIDTH 960 0
@@ -4140,7 +4140,7 @@ BITMAP
 .....@..@@..
 ....@..@..@.
 ...@.@@....@
-ENDCHAR # µ€
+ENDCHAR # Âê∏
 STARTCHAR 3566
 ENCODING 13670
 SWIDTH 960 0
@@ -4159,7 +4159,7 @@ BITMAP
 ....@..@..@.
 ...@...@..@.
 .@@.....@@@.
-ENDCHAR # µÊ
+ENDCHAR # Á©∂
 STARTCHAR 3567
 ENCODING 13671
 SWIDTH 960 0
@@ -4178,7 +4178,7 @@ BITMAP
 @@@@@.@@@@@.
 ..@.@.....@.
 @@.@@...@@..
-ENDCHAR # µÁ
+ENDCHAR # Á™Æ
 STARTCHAR 356b
 ENCODING 13675
 SWIDTH 960 0
@@ -4197,7 +4197,7 @@ BITMAP
 @.@.@@...@..
 @.@..@@@@@..
 ..@..@...@..
-ENDCHAR # µÎ
+ENDCHAR # Áµ¶
 STARTCHAR 356c
 ENCODING 13676
 SWIDTH 960 0
@@ -4216,7 +4216,7 @@ BITMAP
 .@..@....@..
 .@..@@@@@@..
 .@..@....@..
-ENDCHAR # µÏ
+ENDCHAR # Êóß
 STARTCHAR 364a
 ENCODING 13898
 SWIDTH 960 0
@@ -4235,7 +4235,7 @@ BITMAP
 .@..@..@..@.
 .@@@@@@@@@@.
 .@........@.
-ENDCHAR # ∂ 
+ENDCHAR # Êõ≤
 STARTCHAR 3675
 ENCODING 13941
 SWIDTH 960 0
@@ -4254,7 +4254,7 @@ BITMAP
 .....@......
 .....@......
 @@@@@@@@@@@.
-ENDCHAR # ∂ı
+ENDCHAR # Á©∫
 STARTCHAR 3677
 ENCODING 13943
 SWIDTH 960 0
@@ -4273,7 +4273,7 @@ BITMAP
 .@.@@@@@.@..
 .@.....@.@..
 .@......@@..
-ENDCHAR # ∂˜
+ENDCHAR # ÂØì
 STARTCHAR 372f
 ENCODING 14127
 SWIDTH 960 0
@@ -4292,7 +4292,7 @@ BITMAP
 @..@....@...
 ...@@@@@@...
 ...@....@...
-ENDCHAR # ∑Ø
+ENDCHAR # Âêõ
 STARTCHAR 3732
 ENCODING 14130
 SWIDTH 960 0
@@ -4311,7 +4311,7 @@ BITMAP
 .@@..@..@...
 @.@@@@..@...
 ..@..@..@...
-ENDCHAR # ∑≤
+ENDCHAR # Áæ§
 STARTCHAR 3733
 ENCODING 14131
 SWIDTH 960 0
@@ -4330,7 +4330,7 @@ BITMAP
 .....@......
 @@@@@@@@@@@.
 .....@......
-ENDCHAR # ∑≥
+ENDCHAR # Ëªç
 STARTCHAR 3734
 ENCODING 14132
 SWIDTH 960 0
@@ -4349,7 +4349,7 @@ BITMAP
 .@@..@.@@@..
 @.@@@@.@....
 ..@..@.@....
-ENDCHAR # ∑¥
+ENDCHAR # ÈÉ°
 STARTCHAR 3756
 ENCODING 14166
 SWIDTH 960 0
@@ -4368,7 +4368,7 @@ BITMAP
 .....@...@..
 .....@@@@@@.
 @@@@@.....@.
-ENDCHAR # ∑÷
+ENDCHAR # Ëõç
 STARTCHAR 376a
 ENCODING 14186
 SWIDTH 960 0
@@ -4387,7 +4387,7 @@ BITMAP
 ..@.....@...
 .@.......@..
 @.........@.
-ENDCHAR # ∑Í
+ENDCHAR # Á©¥
 STARTCHAR 376b
 ENCODING 14187
 SWIDTH 960 0
@@ -4406,7 +4406,7 @@ BITMAP
 @.@.@@...@..
 @.@..@@@@@..
 ..@..@...@..
-ENDCHAR # ∑Î
+ENDCHAR # Áµê
 STARTCHAR 377b
 ENCODING 14203
 SWIDTH 960 0
@@ -4425,7 +4425,7 @@ BITMAP
 .@.@..@...@.
 @..@....@.@.
 ....@@@@@...
-ENDCHAR # ∑˚
+ENDCHAR # ÊÜ≤
 STARTCHAR 3826
 ENCODING 14374
 SWIDTH 960 0
@@ -4444,7 +4444,7 @@ BITMAP
 .@@@@@...@..
 .@...@...@..
 ....@....@..
-ENDCHAR # ∏¶
+ENDCHAR # Á†î
 STARTCHAR 3827
 ENCODING 14375
 SWIDTH 960 0
@@ -4463,7 +4463,7 @@ BITMAP
 .@@@..@.@...
 .@...@..@.@.
 ....@....@@.
-ENDCHAR # ∏ß
+ENDCHAR # Á°Ø
 STARTCHAR 3845
 ENCODING 14405
 SWIDTH 960 0
@@ -4482,7 +4482,7 @@ BITMAP
 ..@.....@...
 ..@@@@@@@...
 ..@.....@...
-ENDCHAR # ∏≈
+ENDCHAR # Âè§
 STARTCHAR 3846
 ENCODING 14406
 SWIDTH 960 0
@@ -4501,7 +4501,7 @@ BITMAP
 @.@...@.....
 ......@.....
 .....@@.....
-ENDCHAR # ∏∆
+ENDCHAR # Âëº
 STARTCHAR 3848
 ENCODING 14408
 SWIDTH 960 0
@@ -4520,7 +4520,7 @@ BITMAP
 ..@.@@...@..
 .@...@@@@@..
 @....@...@..
-ENDCHAR # ∏»
+ENDCHAR # Âßë
 STARTCHAR 384f
 ENCODING 14415
 SWIDTH 960 0
@@ -4539,7 +4539,7 @@ BITMAP
 @.@..@...@..
 ..@..@@@@@..
 ..@..@...@..
-ENDCHAR # ∏œ
+ENDCHAR # ÊûØ
 STARTCHAR 385a
 ENCODING 14426
 SWIDTH 960 0
@@ -4558,7 +4558,7 @@ BITMAP
 .@@.@@...@..
 ..@@.@@@@@..
 @@...@...@..
-ENDCHAR # ∏⁄
+ENDCHAR # Èà∑
 STARTCHAR 387e
 ENCODING 14462
 SWIDTH 960 0
@@ -4577,7 +4577,7 @@ BITMAP
 .@..@..@..@.
 .@........@.
 .@.......@@.
-ENDCHAR # ∏˛
+ENDCHAR # Âêë
 STARTCHAR 3921
 ENCODING 14625
 SWIDTH 960 0
@@ -4596,7 +4596,7 @@ BITMAP
 .@..@....@..
 @...@@@@@@..
 ....@....@..
-ENDCHAR # π°
+ENDCHAR # Âêé
 STARTCHAR 3922
 ENCODING 14626
 SWIDTH 960 0
@@ -4615,7 +4615,7 @@ BITMAP
 @.@.@..@@...
 @...@.@..@..
 ....@@....@.
-ENDCHAR # π¢
+ENDCHAR # Âñâ
 STARTCHAR 3924
 ENCODING 14628
 SWIDTH 960 0
@@ -4634,7 +4634,7 @@ BITMAP
 @@..@.@...@.
 ....@.@@@@@.
 ...@..@...@.
-ENDCHAR # π§
+ENDCHAR # Âû¢
 STARTCHAR 3928
 ENCODING 14632
 SWIDTH 960 0
@@ -4653,7 +4653,7 @@ BITMAP
 .@..@...@...
 @...@@@@.@..
 ..@@.....@..
-ENDCHAR # π®
+ENDCHAR # ÂÆè
 STARTCHAR 3940
 ENCODING 14656
 SWIDTH 960 0
@@ -4672,7 +4672,7 @@ BITMAP
 .@..@....@..
 @...@@@@@@..
 @...@....@..
-ENDCHAR # π¿
+ENDCHAR # Êµ©
 STARTCHAR 3943
 ENCODING 14659
 SWIDTH 960 0
@@ -4691,7 +4691,7 @@ BITMAP
 .....@......
 .....@......
 .....@......
-ENDCHAR # π√
+ENDCHAR # Áî≤
 STARTCHAR 3967
 ENCODING 14695
 SWIDTH 960 0
@@ -4710,7 +4710,7 @@ BITMAP
 ..@.....@...
 ..@@@@@@@...
 ..@.....@...
-ENDCHAR # πÁ
+ENDCHAR # Âêà
 STARTCHAR 3973
 ENCODING 14707
 SWIDTH 960 0
@@ -4729,7 +4729,7 @@ BITMAP
 @@@@@.@...@.
 @...@.@@@@@.
 @@@@@.@...@.
-ENDCHAR # πÛ
+ENDCHAR # ÈÖ∑
 STARTCHAR 397d
 ENCODING 14717
 SWIDTH 960 0
@@ -4748,7 +4748,7 @@ BITMAP
 ..@..@....@.
 @@...@@@@@@.
 .@...@....@.
-ENDCHAR # π˝
+ENDCHAR # Áãõ
 STARTCHAR 3a36
 ENCODING 14902
 SWIDTH 960 0
@@ -4767,7 +4767,7 @@ BITMAP
 @..@@..@@...
 .....@@.@@..
 ...@@.....@.
-ENDCHAR # ∫∂
+ENDCHAR # ÂîÜ
 STARTCHAR 3a48
 ENCODING 14920
 SWIDTH 960 0
@@ -4786,7 +4786,7 @@ BITMAP
 .@@@@..@@.@.
 .@..@.@..@@.
 .....@....@.
-ENDCHAR # ∫»
+ENDCHAR # Âìâ
 STARTCHAR 3a59
 ENCODING 14937
 SWIDTH 960 0
@@ -4805,7 +4805,7 @@ BITMAP
 .@.@.@@.@.@.
 @..@..@@@@@.
 ...@..@...@.
-ENDCHAR # ∫Ÿ
+ENDCHAR # Á¥∞
 STARTCHAR 3a70
 ENCODING 14960
 SWIDTH 960 0
@@ -4824,7 +4824,7 @@ BITMAP
 @..@...@....
 .......@....
 .......@....
-ENDCHAR # ∫
+ENDCHAR # Âíã
 STARTCHAR 3a72
 ENCODING 14962
 SWIDTH 960 0
@@ -4843,7 +4843,7 @@ BITMAP
 @..@...@....
 .......@....
 .......@....
-ENDCHAR # ∫Ú
+ENDCHAR # Êò®
 STARTCHAR 3a77
 ENCODING 14967
 SWIDTH 960 0
@@ -4862,7 +4862,7 @@ BITMAP
 ..@..@..@...
 @@...@...@..
 .....@......
-ENDCHAR # ∫˜
+ENDCHAR # Á¥¢
 STARTCHAR 3b21
 ENCODING 15137
 SWIDTH 960 0
@@ -4881,7 +4881,7 @@ BITMAP
 ..@..@.@@...
 @@...@...@..
 ....@@......
-ENDCHAR # ª°
+ENDCHAR # ÂØü
 STARTCHAR 3b2f
 ENCODING 15151
 SWIDTH 960 0
@@ -4900,7 +4900,7 @@ BITMAP
 @@@.@.....@.
 @.@.@@@@@@@.
 ....@.....@.
-ENDCHAR # ªØ
+ENDCHAR # Êôí
 STARTCHAR 3b4d
 ENCODING 15181
 SWIDTH 960 0
@@ -4919,7 +4919,7 @@ BITMAP
 @@@@@@@@@@@.
 @.........@.
 ............
-ENDCHAR # ªÕ
+ENDCHAR # Âõõ
 STARTCHAR 3b4f
 ENCODING 15183
 SWIDTH 960 0
@@ -4938,7 +4938,7 @@ BITMAP
 ..@.@@...@..
 .@...@@@@@..
 @....@...@..
-ENDCHAR # ªœ
+ENDCHAR # Âßã
 STARTCHAR 3b55
 ENCODING 15189
 SWIDTH 960 0
@@ -4957,7 +4957,7 @@ BITMAP
 @@@@.@.@.@@.
 @..@...@....
 @......@....
-ENDCHAR # ª’
+ENDCHAR # Â∏´
 STARTCHAR 3b5d
 ENCODING 15197
 SWIDTH 960 0
@@ -4976,7 +4976,7 @@ BITMAP
 ..@.....@...
 ..@@@@@@@...
 ..@.....@...
-ENDCHAR # ª›
+ENDCHAR # Êó®
 STARTCHAR 3b7a
 ENCODING 15226
 SWIDTH 960 0
@@ -4995,7 +4995,7 @@ BITMAP
 .....@......
 .....@......
 ....@@......
-ENDCHAR # ª˙
+ENDCHAR # Â≠ó
 STARTCHAR 3b7e
 ENCODING 15230
 SWIDTH 960 0
@@ -5014,7 +5014,7 @@ BITMAP
 @@@.....@...
 @.@.....@...
 .......@@...
-ENDCHAR # ª˛
+ENDCHAR # ÊôÇ
 STARTCHAR 3c23
 ENCODING 15395
 SWIDTH 960 0
@@ -5033,7 +5033,7 @@ BITMAP
 .@..@....@..
 @...@@@@@@..
 @...@....@..
-ENDCHAR # º£
+ENDCHAR # Ê≤ª
 STARTCHAR 3c2b
 ENCODING 15403
 SWIDTH 960 0
@@ -5052,7 +5052,7 @@ BITMAP
 ..@.....@...
 ..@@@@@@@...
 ..@.....@...
-ENDCHAR # º´
+ENDCHAR # Ëá™
 STARTCHAR 3c2d
 ENCODING 15405
 SWIDTH 960 0
@@ -5071,7 +5071,7 @@ BITMAP
 @...@..@....
 @@@@@..@....
 @...@..@....
-ENDCHAR # º≠
+ENDCHAR # Ëæû
 STARTCHAR 3c34
 ENCODING 15412
 SWIDTH 960 0
@@ -5090,7 +5090,7 @@ BITMAP
 @@@@@.@.@.@.
 ..@...@@@@@.
 ..@...@...@.
-ENDCHAR # º¥
+ENDCHAR # Ëª∏
 STARTCHAR 3c35
 ENCODING 15413
 SWIDTH 960 0
@@ -5109,7 +5109,7 @@ BITMAP
 ...@....@...
 ..@......@..
 @@.......@..
-ENDCHAR # ºµ
+ENDCHAR # ÂÆç
 STARTCHAR 3c38
 ENCODING 15416
 SWIDTH 960 0
@@ -5128,7 +5128,7 @@ BITMAP
 @..@.@....@.
 .....@....@.
 ......@@@@@.
-ENDCHAR # º∏
+ENDCHAR # Âè±
 STARTCHAR 3c3c
 ENCODING 15420
 SWIDTH 960 0
@@ -5147,7 +5147,7 @@ BITMAP
 .....@......
 .....@......
 @@@@@@@@@@@.
-ENDCHAR # ºº
+ENDCHAR # ÂÆ§
 STARTCHAR 3c42
 ENCODING 15426
 SWIDTH 960 0
@@ -5166,7 +5166,7 @@ BITMAP
 ....@.@.....
 ..@@...@@...
 @@.......@@.
-ENDCHAR # º¬
+ENDCHAR # ÂÆü
 STARTCHAR 3c43
 ENCODING 15427
 SWIDTH 960 0
@@ -5185,7 +5185,7 @@ BITMAP
 .@...@.@@@..
 .@@@@@.@....
 .@...@.@....
-ENDCHAR # º√
+ENDCHAR # ËîÄ
 STARTCHAR 3c4c
 ENCODING 15436
 SWIDTH 960 0
@@ -5204,7 +5204,7 @@ BITMAP
 .......@....
 .......@....
 .....@@.....
-ENDCHAR # ºÃ
+ENDCHAR # ÂÜô
 STARTCHAR 3c54
 ENCODING 15444
 SWIDTH 960 0
@@ -5223,7 +5223,7 @@ BITMAP
 ...@....@...
 ...@@@@@@...
 ...@....@...
-ENDCHAR # º‘
+ENDCHAR # ËÄÖ
 STARTCHAR 3c5a
 ENCODING 15450
 SWIDTH 960 0
@@ -5242,7 +5242,7 @@ BITMAP
 ..@.@....@..
 ..@.@@@@@@..
 ..@.@....@..
-ENDCHAR # º⁄
+ENDCHAR # ÂÄü
 STARTCHAR 3c63
 ENCODING 15459
 SWIDTH 960 0
@@ -5261,7 +5261,7 @@ BITMAP
 .@.@....@...
 @..@@@@@@...
 ...@....@...
-ENDCHAR # º„
+ENDCHAR # Ëã•
 STARTCHAR 3c64
 ENCODING 15460
 SWIDTH 960 0
@@ -5280,7 +5280,7 @@ BITMAP
 @.@.@..@@...
 @.@...@..@..
 ..@..@....@.
-ENDCHAR # º‰
+ENDCHAR # ÂØÇ
 STARTCHAR 3c69
 ENCODING 15465
 SWIDTH 960 0
@@ -5299,7 +5299,7 @@ BITMAP
 .......@....
 .......@....
 ......@@....
-ENDCHAR # ºÈ
+ENDCHAR # ÂÆà
 STARTCHAR 3c6d
 ENCODING 15469
 SWIDTH 960 0
@@ -5318,7 +5318,7 @@ BITMAP
 ..@.....@...
 ..@.....@...
 @@.....@@...
-ENDCHAR # ºÌ
+ENDCHAR # Áã©
 STARTCHAR 3c73
 ENCODING 15475
 SWIDTH 960 0
@@ -5337,7 +5337,7 @@ BITMAP
 ..@.....@...
 ..@@@@@@@...
 ..@.....@...
-ENDCHAR # ºÛ
+ENDCHAR # È¶ñ
 STARTCHAR 3c75
 ENCODING 15477
 SWIDTH 960 0
@@ -5356,7 +5356,7 @@ BITMAP
 .....@@.....
 ...@@..@....
 .@@.....@@..
-ENDCHAR # ºı
+ENDCHAR # Âèó
 STARTCHAR 3c76
 ENCODING 15478
 SWIDTH 960 0
@@ -5375,7 +5375,7 @@ BITMAP
 .....@..@.@.
 ....@...@.@.
 ..@@.....@@.
-ENDCHAR # ºˆ
+ENDCHAR # Âë™
 STARTCHAR 3d21
 ENCODING 15649
 SWIDTH 960 0
@@ -5394,7 +5394,7 @@ BITMAP
 ..@..@...@..
 .@...@...@..
 ....@@......
-ENDCHAR # Ω°
+ENDCHAR # ÂÆó
 STARTCHAR 3d26
 ENCODING 15654
 SWIDTH 960 0
@@ -5413,7 +5413,7 @@ BITMAP
 ..@..@...@..
 ..@..@@@@@..
 .@@..@...@..
-ENDCHAR # Ω¶
+ENDCHAR # Êãæ
 STARTCHAR 3d49
 ENCODING 15689
 SWIDTH 960 0
@@ -5432,7 +5432,7 @@ BITMAP
 ..@..@...@..
 ..@..@@@@@..
 ..@..@...@..
-ENDCHAR # Ω…
+ENDCHAR # ÂÆø
 STARTCHAR 3d50
 ENCODING 15696
 SWIDTH 960 0
@@ -5451,7 +5451,7 @@ BITMAP
 .@...@...@..
 .@@@@@@@@@..
 .@.......@..
-ENDCHAR # Ω–
+ENDCHAR # Âá∫
 STARTCHAR 3e24
 ENCODING 15908
 SWIDTH 960 0
@@ -5470,7 +5470,7 @@ BITMAP
 ..@.....@...
 ..@@@@@@@...
 ..@.....@...
-ENDCHAR # æ§
+ENDCHAR # Âè¨
 STARTCHAR 3e25
 ENCODING 15909
 SWIDTH 960 0
@@ -5489,7 +5489,7 @@ BITMAP
 @.@.@....@..
 ....@....@..
 ....@...@@..
-ENDCHAR # æ•
+ENDCHAR # Âì®
 STARTCHAR 3e37
 ENCODING 15927
 SWIDTH 960 0
@@ -5508,7 +5508,7 @@ BITMAP
 ..@..@....@.
 ..@..@@@@@@.
 .@@..@....@.
-ENDCHAR # æ∑
+ENDCHAR # Êãõ
 STARTCHAR 3e38
 ENCODING 15928
 SWIDTH 960 0
@@ -5527,7 +5527,7 @@ BITMAP
 @@@@@@@@@@@.
 .....@......
 ....@@......
-ENDCHAR # æ∏
+ENDCHAR # Êéå
 STARTCHAR 3e3c
 ENCODING 15932
 SWIDTH 960 0
@@ -5546,7 +5546,7 @@ BITMAP
 @@@@.@....@.
 .....@@@@@@.
 .....@....@.
-ENDCHAR # æº
+ENDCHAR # Êò≠
 STARTCHAR 3e42
 ENCODING 15938
 SWIDTH 960 0
@@ -5565,7 +5565,7 @@ BITMAP
 .@...@....@.
 @....@@@@@@.
 @....@....@.
-ENDCHAR # æ¬
+ENDCHAR # Ê≤º
 STARTCHAR 3e45
 ENCODING 15941
 SWIDTH 960 0
@@ -5584,7 +5584,7 @@ BITMAP
 .@@.@..@..@.
 @...@..@@@@.
 @...@..@..@.
-ENDCHAR # æ≈
+ENDCHAR # Êπò
 STARTCHAR 3e4b
 ENCODING 15947
 SWIDTH 960 0
@@ -5603,7 +5603,7 @@ BITMAP
 .@@@.@...@..
 .@.@.@...@..
 .@...@..@@..
-ENDCHAR # æÀ
+ENDCHAR # Á°ù
 STARTCHAR 3e4c
 ENCODING 15948
 SWIDTH 960 0
@@ -5622,7 +5622,7 @@ BITMAP
 .@@@........
 .@.@.@@.@.@.
 .@..@..@.@.@
-ENDCHAR # æÃ
+ENDCHAR # Á§Å
 STARTCHAR 3e52
 ENCODING 15954
 SWIDTH 960 0
@@ -5641,7 +5641,7 @@ BITMAP
 @.@.@.@...@.
 @.@...@@@@@.
 ..@...@...@.
-ENDCHAR # æ“
+ENDCHAR # Á¥π
 STARTCHAR 3e58
 ENCODING 15960
 SWIDTH 960 0
@@ -5660,7 +5660,7 @@ BITMAP
 ..@@..@..@..
 @@.@@@.@@...
 ..@@.....@@.
-ENDCHAR # æÿ
+ENDCHAR # Ë£≥
 STARTCHAR 3e5b
 ENCODING 15963
 SWIDTH 960 0
@@ -5679,7 +5679,7 @@ BITMAP
 @..@.@....@.
 @..@.@@@@@@.
 @@@@.@....@.
-ENDCHAR # æ€
+ENDCHAR # Ë©î
 STARTCHAR 3e5e
 ENCODING 15966
 SWIDTH 960 0
@@ -5698,7 +5698,7 @@ BITMAP
 ..@@@@@@@...
 ....@.@@....
 .@@@....@@..
-ENDCHAR # æﬁ
+ENDCHAR # Ë≥û
 STARTCHAR 3e69
 ENCODING 15977
 SWIDTH 960 0
@@ -5717,7 +5717,7 @@ BITMAP
 ...@..@...@.
 ..@...@...@.
 @@.....@@@@.
-ENDCHAR # æÈ
+ENDCHAR # ÂÜó
 STARTCHAR 3e6f
 ENCODING 15983
 SWIDTH 960 0
@@ -5736,7 +5736,7 @@ BITMAP
 ..@..@...@..
 ..@..@..@...
 .....@......
-ENDCHAR # æÔ
+ENDCHAR # Â∏∏
 STARTCHAR 3f32
 ENCODING 16178
 SWIDTH 960 0
@@ -5755,7 +5755,7 @@ BITMAP
 ..@..@..@...
 ..@...@@....
 ..@@@@..@@@.
-ENDCHAR # ø≤
+ENDCHAR # ÂØù
 STARTCHAR 3f33
 ENCODING 16179
 SWIDTH 960 0
@@ -5774,7 +5774,7 @@ BITMAP
 ..@@@@@@@...
 ..@..@..@...
 ..@@@@@@@...
-ENDCHAR # ø≥
+ENDCHAR # ÂØ©
 STARTCHAR 3f3b
 ENCODING 16187
 SWIDTH 960 0
@@ -5793,7 +5793,7 @@ BITMAP
 .@.....@....
 @....@@.@...
 @..@@....@@.
-ENDCHAR # øª
+ENDCHAR # Êµ∏
 STARTCHAR 3f3c
 ENCODING 16188
 SWIDTH 960 0
@@ -5812,7 +5812,7 @@ BITMAP
 .@..@.@..@..
 @..@..@...@.
 @.....@.....
-ENDCHAR # øº
+ENDCHAR # Ê∑±
 STARTCHAR 3f4c
 ENCODING 16204
 SWIDTH 960 0
@@ -5831,7 +5831,7 @@ BITMAP
 .@.@.@..@...
 .@.@..@@....
 @.@@@...@@..
-ENDCHAR # øÃ
+ENDCHAR # Èúá
 STARTCHAR 3f63
 ENCODING 16227
 SWIDTH 960 0
@@ -5850,7 +5850,7 @@ BITMAP
 @@@@.@.@....
 @..@...@....
 @......@....
-ENDCHAR # ø„
+ENDCHAR # Â∏•
 STARTCHAR 3f72
 ENCODING 16242
 SWIDTH 960 0
@@ -5869,7 +5869,7 @@ BITMAP
 ..@..@.@@...
 @@...@...@@.
 ....@@......
-ENDCHAR # øÚ
+ENDCHAR # Â¥á
 STARTCHAR 3f7b
 ENCODING 16251
 SWIDTH 960 0
@@ -5888,7 +5888,7 @@ BITMAP
 ..@@@@@@@...
 ..@.....@...
 ..@@@@@@@...
-ENDCHAR # ø˚
+ENDCHAR # ËèÖ
 STARTCHAR 3f7e
 ENCODING 16254
 SWIDTH 960 0
@@ -5907,7 +5907,7 @@ BITMAP
 ..@.@.@...@.
 ..@.@.@@@@@.
 ..@@..@...@.
-ENDCHAR # ø˛
+ENDCHAR # Ë£æ
 STARTCHAR 4034
 ENCODING 16436
 SWIDTH 960 0
@@ -5926,7 +5926,7 @@ BITMAP
 @.@.@.....@.
 ..@.@@@@@@@.
 ..@.@.....@.
-ENDCHAR # ¿¥
+ENDCHAR # Ê†ñ
 STARTCHAR 403e
 ENCODING 16446
 SWIDTH 960 0
@@ -5945,7 +5945,7 @@ BITMAP
 .@.......@..
 .@@@@@@@@@..
 .@.......@..
-ENDCHAR # ¿æ
+ENDCHAR # Ë•ø
 STARTCHAR 4050
 ENCODING 16464
 SWIDTH 960 0
@@ -5964,7 +5964,7 @@ BITMAP
 @...@....@..
 ....@@@@@@..
 ....@....@..
-ENDCHAR # ¿–
+ENDCHAR # Áü≥
 STARTCHAR 4059
 ENCODING 16473
 SWIDTH 960 0
@@ -5983,7 +5983,7 @@ BITMAP
 .@@@.@@@@@..
 .@.@..@..@..
 .@..@@....@.
-ENDCHAR # ¿Ÿ
+ENDCHAR # Á¢©
 STARTCHAR 405b
 ENCODING 16475
 SWIDTH 960 0
@@ -6002,7 +6002,7 @@ BITMAP
 ..@.@..@..@.
 ..@.@@@@@@@.
 .@@.@.....@.
-ENDCHAR # ¿€
+ENDCHAR # Êãô
 STARTCHAR 4060
 ENCODING 16480
 SWIDTH 960 0
@@ -6021,7 +6021,7 @@ BITMAP
 .@....@..@..
 ..@@.@...@..
 ....@..@@...
-ENDCHAR # ¿‡
+ENDCHAR # Á™É
 STARTCHAR 4063
 ENCODING 16483
 SWIDTH 960 0
@@ -6040,7 +6040,7 @@ BITMAP
 ..@@@@@@@...
 ........@...
 ..@@@@@@@...
-ENDCHAR # ¿„
+ENDCHAR # Èõ™
 STARTCHAR 4065
 ENCODING 16485
 SWIDTH 960 0
@@ -6059,7 +6059,7 @@ BITMAP
 ..@.....@...
 ..@@@@@@@...
 ..@.....@...
-ENDCHAR # ¿Â
+ENDCHAR # Ëàå
 STARTCHAR 406a
 ENCODING 16490
 SWIDTH 960 0
@@ -6078,7 +6078,7 @@ BITMAP
 ..@.....@...
 ..@@@@@@@...
 ..@.....@...
-ENDCHAR # ¿Í
+ENDCHAR # Âç†
 STARTCHAR 406b
 ENCODING 16491
 SWIDTH 960 0
@@ -6097,7 +6097,7 @@ BITMAP
 ..@@@@@@@...
 ............
 @@@@@@@@@@@.
-ENDCHAR # ¿Î
+ENDCHAR # ÂÆ£
 STARTCHAR 4125
 ENCODING 16677
 SWIDTH 960 0
@@ -6116,7 +6116,7 @@ BITMAP
 .@.@@.@..@..
 .@..@.@@@@..
 @..@@.@..@..
-ENDCHAR # ¡•
+ENDCHAR # Ëàπ
 STARTCHAR 4157
 ENCODING 16727
 SWIDTH 960 0
@@ -6135,7 +6135,7 @@ BITMAP
 ..@@.@.@@...
 @@...@...@@.
 .....@......
-ENDCHAR # ¡◊
+ENDCHAR # ÂÆã
 STARTCHAR 416a
 ENCODING 16746
 SWIDTH 960 0
@@ -6154,7 +6154,7 @@ BITMAP
 @..@..@...@.
 ...@..@@@@@.
 ...@..@...@.
-ENDCHAR # ¡Í
+ENDCHAR # Áõ∏
 STARTCHAR 416b
 ENCODING 16747
 SWIDTH 960 0
@@ -6173,7 +6173,7 @@ BITMAP
 .@.@......@.
 @..@...@..@.
 ....@@@@....
-ENDCHAR # ¡Î
+ENDCHAR # Á™ì
 STARTCHAR 422f
 ENCODING 16943
 SWIDTH 960 0
@@ -6192,7 +6192,7 @@ BITMAP
 ..@..@...@..
 ..@..@@@@@..
 ..@..@...@..
-ENDCHAR # ¬Ø
+ENDCHAR # ‰øó
 STARTCHAR 4233
 ENCODING 16947
 SWIDTH 960 0
@@ -6211,7 +6211,7 @@ BITMAP
 @.@.@.@.@...
 @.@...@.@.@.
 ..@..@...@@.
-ENDCHAR # ¬≥
+ENDCHAR # Á∂ö
 STARTCHAR 4242
 ENCODING 16962
 SWIDTH 960 0
@@ -6230,7 +6230,7 @@ BITMAP
 @..@..@...@.
 @..@..@...@.
 @@@@...@@@@.
-ENDCHAR # ¬¬
+ENDCHAR # Ë©ë
 STARTCHAR 4248
 ENCODING 16968
 SWIDTH 960 0
@@ -6249,7 +6249,7 @@ BITMAP
 @.@...@...@.
 ..@...@...@.
 ..@....@@@@.
-ENDCHAR # ¬»
+ENDCHAR # ÊüÅ
 STARTCHAR 4249
 ENCODING 16969
 SWIDTH 960 0
@@ -6268,7 +6268,7 @@ BITMAP
 .@.@@.@...@.
 .@..@.@...@.
 @..@@..@@@@.
-ENDCHAR # ¬…
+ENDCHAR # Ëàµ
 STARTCHAR 424b
 ENCODING 16971
 SWIDTH 960 0
@@ -6287,7 +6287,7 @@ BITMAP
 @....@....@.
 @....@....@.
 @.....@@@@@.
-ENDCHAR # ¬À
+ENDCHAR # ÈôÄ
 STARTCHAR 4252
 ENCODING 16978
 SWIDTH 960 0
@@ -6306,7 +6306,7 @@ BITMAP
 .@...@...@..
 .@@@@@@@@@..
 .@.......@..
-ENDCHAR # ¬“
+ENDCHAR # Â≤±
 STARTCHAR 425b
 ENCODING 16987
 SWIDTH 960 0
@@ -6325,7 +6325,7 @@ BITMAP
 @..@.@...@..
 @..@.@@@@@..
 @.@@.@...@..
-ENDCHAR # ¬€
+ENDCHAR # ËÉé
 STARTCHAR 4266
 ENCODING 16998
 SWIDTH 960 0
@@ -6344,7 +6344,7 @@ BITMAP
 ..@......@..
 ..@@@@@@@@..
 ..@......@..
-ENDCHAR # ¬Ê
+ENDCHAR # Âè∞
 STARTCHAR 4270
 ENCODING 17008
 SWIDTH 960 0
@@ -6363,7 +6363,7 @@ BITMAP
 ....@.......
 ....@....@..
 .....@@@@@..
-ENDCHAR # ¬
+ENDCHAR # ÂÆÖ
 STARTCHAR 4273
 ENCODING 17011
 SWIDTH 960 0
@@ -6382,7 +6382,7 @@ BITMAP
 ..@@..@...@.
 ..@...@@@@@.
 .@@...@...@.
-ENDCHAR # ¬Û
+ENDCHAR # Êãì
 STARTCHAR 432b
 ENCODING 17195
 SWIDTH 960 0
@@ -6401,7 +6401,7 @@ BITMAP
 ..@.....@...
 ..@@@@@@@...
 ..@.....@...
-ENDCHAR # √´
+ENDCHAR # Ë∞∑
 STARTCHAR 4362
 ENCODING 17250
 SWIDTH 960 0
@@ -6420,7 +6420,7 @@ BITMAP
 ..@@@@@@@...
 .....@......
 @@@@@@@@@@@.
-ENDCHAR # √‚
+ENDCHAR # Á™í
 STARTCHAR 4366
 ENCODING 17254
 SWIDTH 960 0
@@ -6439,7 +6439,7 @@ BITMAP
 .....@......
 .....@......
 .....@......
-ENDCHAR # √Ê
+ENDCHAR # ‰∏≠
 STARTCHAR 4368
 ENCODING 17256
 SWIDTH 960 0
@@ -6458,7 +6458,7 @@ BITMAP
 ..@..@..@...
 ..@@@@@@@...
 ..@.....@...
-ENDCHAR # √Ë
+ENDCHAR # ÂÆô
 STARTCHAR 436a
 ENCODING 17258
 SWIDTH 960 0
@@ -6477,7 +6477,7 @@ BITMAP
 ..@.@..@..@.
 ..@.@@@@@@@.
 .@@.@.....@.
-ENDCHAR # √Í
+ENDCHAR # ÊäΩ
 STARTCHAR 4377
 ENCODING 17271
 SWIDTH 960 0
@@ -6496,7 +6496,7 @@ BITMAP
 .....@......
 .....@......
 ....@@......
-ENDCHAR # √˜
+ENDCHAR # Ëãß
 STARTCHAR 4379
 ENCODING 17273
 SWIDTH 960 0
@@ -6515,7 +6515,7 @@ BITMAP
 ..@@...@....
 .@..@..@....
 @.....@@....
-ENDCHAR # √˘
+ENDCHAR # Ë≤Ø
 STARTCHAR 4451
 ENCODING 17489
 SWIDTH 960 0
@@ -6534,7 +6534,7 @@ BITMAP
 ..@..@.@..@.
 ..@..@@@@@@.
 ..@..@....@.
-ENDCHAR # ƒ—
+ENDCHAR # ‰ΩÉ
 STARTCHAR 4453
 ENCODING 17491
 SWIDTH 960 0
@@ -6553,7 +6553,7 @@ BITMAP
 @.@@..@...@.
 ..@...@@@@@.
 ..@...@...@.
-ENDCHAR # ƒ”
+ENDCHAR # Êüò
 STARTCHAR 446a
 ENCODING 17514
 SWIDTH 960 0
@@ -6572,7 +6572,7 @@ BITMAP
 ..@@.@......
 .@..@@......
 @.....@@@@@.
-ENDCHAR # ƒÍ
+ENDCHAR # ÂÆö
 STARTCHAR 446b
 ENCODING 17515
 SWIDTH 960 0
@@ -6591,7 +6591,7 @@ BITMAP
 .@...@.@@...
 .....@......
 .....@......
-ENDCHAR # ƒÎ
+ENDCHAR # Â∏ù
 STARTCHAR 4476
 ENCODING 17526
 SWIDTH 960 0
@@ -6610,7 +6610,7 @@ BITMAP
 .@@@.@.@....
 .@..@.@@....
 ...@....@@@.
-ENDCHAR # ƒˆ
+ENDCHAR # Á¢á
 STARTCHAR 452a
 ENCODING 17706
 SWIDTH 960 0
@@ -6629,7 +6629,7 @@ BITMAP
 .@@@@.....@.
 .@..@.....@.
 ........@@..
-ENDCHAR # ≈™
+ENDCHAR # ÁöÑ
 STARTCHAR 4544
 ENCODING 17732
 SWIDTH 960 0
@@ -6648,7 +6648,7 @@ BITMAP
 .@...@...@..
 .@@@@@@@@@..
 .@.......@..
-ENDCHAR # ≈ƒ
+ENDCHAR # Áî∞
 STARTCHAR 4566
 ENCODING 17766
 SWIDTH 960 0
@@ -6667,7 +6667,7 @@ BITMAP
 .@.@.....@..
 @..@@@@@@@..
 ...@.....@..
-ENDCHAR # ≈Ê
+ENDCHAR # ÂÆï
 STARTCHAR 4632
 ENCODING 17970
 SWIDTH 960 0
@@ -6686,7 +6686,7 @@ BITMAP
 .@@@@@@@@@..
 .....@......
 @@@@@@@@@@@.
-ENDCHAR # ∆≤
+ENDCHAR # Â†Ç
 STARTCHAR 4633
 ENCODING 17971
 SWIDTH 960 0
@@ -6705,7 +6705,7 @@ BITMAP
 @@@@@@@@@@@.
 ...@...@....
 ......@@....
-ENDCHAR # ∆≥
+ENDCHAR # Â∞é
 STARTCHAR 4649
 ENCODING 17993
 SWIDTH 960 0
@@ -6724,7 +6724,7 @@ BITMAP
 @..@..@.@...
 @..@.@..@.@.
 @@@@@...@@@.
-ENDCHAR # ∆…
+ENDCHAR # Ë™≠
 STARTCHAR 464c
 ENCODING 17996
 SWIDTH 960 0
@@ -6743,7 +6743,7 @@ BITMAP
 @.........@.
 @@@@@@@@@@@.
 @.........@.
-ENDCHAR # ∆Ã
+ENDCHAR # Âá∏
 STARTCHAR 4651
 ENCODING 18001
 SWIDTH 960 0
@@ -6762,7 +6762,7 @@ BITMAP
 ..@......@..
 ..@@@@@@@@..
 ..@......@..
-ENDCHAR # ∆—
+ENDCHAR # Ëã´
 STARTCHAR 467b
 ENCODING 18043
 SWIDTH 960 0
@@ -6781,7 +6781,7 @@ BITMAP
 ...@...@....
 ...@@@@@....
 ...@...@....
-ENDCHAR # ∆˚
+ENDCHAR # Âªø
 STARTCHAR 467c
 ENCODING 18044
 SWIDTH 960 0
@@ -6800,7 +6800,7 @@ BITMAP
 ..@.....@...
 ..@@@@@@@...
 ..@.....@...
-ENDCHAR # ∆¸
+ENDCHAR # Êó•
 STARTCHAR 4721
 ENCODING 18209
 SWIDTH 960 0
@@ -6819,7 +6819,7 @@ BITMAP
 ..@.@.@@@@@.
 .@....@...@.
 @...........
-ENDCHAR # «°
+ENDCHAR # Â¶Ç
 STARTCHAR 472d
 ENCODING 18221
 SWIDTH 960 0
@@ -6838,7 +6838,7 @@ BITMAP
 ..@.@..@..@.
 ..@.@@@@@@@.
 @@..@.....@.
-ENDCHAR # «≠
+ENDCHAR # Áå´
 STARTCHAR 4734
 ENCODING 18228
 SWIDTH 960 0
@@ -6857,7 +6857,7 @@ BITMAP
 @.@..@...@..
 ..@..@@@@@..
 ..@..@...@..
-ENDCHAR # «¥
+ENDCHAR # Á≤ò
 STARTCHAR 475c
 ENCODING 18268
 SWIDTH 960 0
@@ -6876,7 +6876,7 @@ BITMAP
 ..@..@...@..
 ..@..@@@@@..
 ..@..@...@..
-ENDCHAR # «‹
+ENDCHAR # ÂÄç
 STARTCHAR 475d
 ENCODING 18269
 SWIDTH 960 0
@@ -6895,7 +6895,7 @@ BITMAP
 @@...@...@..
 .....@@@@@..
 .....@...@..
-ENDCHAR # «›
+ENDCHAR # Âüπ
 STARTCHAR 4764
 ENCODING 18276
 SWIDTH 960 0
@@ -6914,7 +6914,7 @@ BITMAP
 ...@..@...@.
 ..@...@...@.
 @@.....@@@@.
-ENDCHAR # «‰
+ENDCHAR # Â£≤
 STARTCHAR 4765
 ENCODING 18277
 SWIDTH 960 0
@@ -6933,7 +6933,7 @@ BITMAP
 .@@..@...@..
 @..@.@@@@@..
 @....@...@..
-ENDCHAR # «Â
+ENDCHAR # Ë≥†
 STARTCHAR 4766
 ENCODING 18278
 SWIDTH 960 0
@@ -6952,7 +6952,7 @@ BITMAP
 @...@....@..
 @...@@@@@@..
 @...@....@..
-ENDCHAR # «Ê
+ENDCHAR # Èô™
 STARTCHAR 476c
 ENCODING 18284
 SWIDTH 960 0
@@ -6971,7 +6971,7 @@ BITMAP
 ..@..@....@.
 ..@..@@@@@@.
 ..@..@....@.
-ENDCHAR # «Ï
+ENDCHAR # ‰ºØ
 STARTCHAR 476f
 ENCODING 18287
 SWIDTH 960 0
@@ -6990,7 +6990,7 @@ BITMAP
 ..@..@....@.
 ..@..@@@@@@.
 .@@..@....@.
-ENDCHAR # «Ô
+ENDCHAR # Êãç
 STARTCHAR 4770
 ENCODING 18288
 SWIDTH 960 0
@@ -7009,7 +7009,7 @@ BITMAP
 @.@..@....@.
 ..@..@@@@@@.
 ..@..@....@.
-ENDCHAR # «
+ENDCHAR # Êüè
 STARTCHAR 4771
 ENCODING 18289
 SWIDTH 960 0
@@ -7028,7 +7028,7 @@ BITMAP
 .@..@....@..
 @...@@@@@@..
 @...@....@..
-ENDCHAR # «Ò
+ENDCHAR # Ê≥ä
 STARTCHAR 4772
 ENCODING 18290
 SWIDTH 960 0
@@ -7047,7 +7047,7 @@ BITMAP
 ..@.....@...
 ..@@@@@@@...
 ..@.....@...
-ENDCHAR # «Ú
+ENDCHAR # ÁôΩ
 STARTCHAR 4773
 ENCODING 18291
 SWIDTH 960 0
@@ -7066,7 +7066,7 @@ BITMAP
 .@..@....@..
 @...@@@@@@..
 @...@....@..
-ENDCHAR # «Û
+ENDCHAR # ÁÆî
 STARTCHAR 4774
 ENCODING 18292
 SWIDTH 960 0
@@ -7085,7 +7085,7 @@ BITMAP
 @.@...@...@.
 ..@...@@@@@.
 ..@...@...@.
-ENDCHAR # «Ù
+ENDCHAR # Á≤ï
 STARTCHAR 4775
 ENCODING 18293
 SWIDTH 960 0
@@ -7104,7 +7104,7 @@ BITMAP
 .@.@@.@...@.
 .@..@.@@@@@.
 @..@@.@...@.
-ENDCHAR # «ı
+ENDCHAR # Ëà∂
 STARTCHAR 4821
 ENCODING 18465
 SWIDTH 960 0
@@ -7123,7 +7123,7 @@ BITMAP
 @....@@...@.
 @@@@@@@@@@@.
 @.........@.
-ENDCHAR # »°
+ENDCHAR # ÂáΩ
 STARTCHAR 4822
 ENCODING 18466
 SWIDTH 960 0
@@ -7142,7 +7142,7 @@ BITMAP
 @.@.@.@...@.
 @.@...@@@@@.
 ..@...@...@.
-ENDCHAR # »¢
+ENDCHAR # ÁÆ±
 STARTCHAR 4823
 ENCODING 18467
 SWIDTH 960 0
@@ -7161,7 +7161,7 @@ BITMAP
 .@@@@.@...@.
 .@..@.@@@@@.
 ......@...@.
-ENDCHAR # »£
+ENDCHAR # Á°≤
 STARTCHAR 482a
 ENCODING 18474
 SWIDTH 960 0
@@ -7180,7 +7180,7 @@ BITMAP
 .@..@@.@..@.
 .@...@@@@@@.
 @....@....@.
-ENDCHAR # »™
+ENDCHAR # Áïë
 STARTCHAR 483a
 ENCODING 18490
 SWIDTH 960 0
@@ -7199,7 +7199,7 @@ BITMAP
 ..@.@@...@..
 ..@@@@@@@@..
 @@...@...@..
-ENDCHAR # »∫
+ENDCHAR # Ëõ§
 STARTCHAR 485d
 ENCODING 18525
 SWIDTH 960 0
@@ -7218,7 +7218,7 @@ BITMAP
 ..@......@..
 ..@@@@@@@@..
 ..@......@..
-ENDCHAR # »›
+ENDCHAR # Âê¶
 STARTCHAR 4941
 ENCODING 18753
 SWIDTH 960 0
@@ -7237,7 +7237,7 @@ BITMAP
 ..@.@..@..@.
 ..@.@@@@@@@.
 .@@.@.....@.
-ENDCHAR # …¡
+ENDCHAR # Êèè
 STARTCHAR 4944
 ENCODING 18756
 SWIDTH 960 0
@@ -7256,7 +7256,7 @@ BITMAP
 .@...@...@..
 .@@@@@@@@@..
 .@.......@..
-ENDCHAR # …ƒ
+ENDCHAR # Ëãó
 STARTCHAR 494a
 ENCODING 18762
 SWIDTH 960 0
@@ -7275,7 +7275,7 @@ BITMAP
 @...@.@...@.
 @@@@@.@@@@@.
 @...@.@...@.
-ENDCHAR # … 
+ENDCHAR # ÂìÅ
 STARTCHAR 4959
 ENCODING 18777
 SWIDTH 960 0
@@ -7294,7 +7294,7 @@ BITMAP
 .@@@@@@@@@..
 .@...@...@..
 .@@@@@@@@@..
-ENDCHAR # …Ÿ
+ENDCHAR # ÂØå
 STARTCHAR 495a
 ENCODING 18778
 SWIDTH 960 0
@@ -7313,7 +7313,7 @@ BITMAP
 .@@@@@@@@@..
 .@...@...@..
 .@@@@@@@@@..
-ENDCHAR # …⁄
+ENDCHAR # ÂÜ®
 STARTCHAR 4974
 ENCODING 18804
 SWIDTH 960 0
@@ -7332,7 +7332,7 @@ BITMAP
 .@...@.@....
 .@@@@@.@....
 .@...@.@....
-ENDCHAR # …Ù
+ENDCHAR # ÈÉ®
 STARTCHAR 4b24
 ENCODING 19236
 SWIDTH 960 0
@@ -7351,7 +7351,7 @@ BITMAP
 .@@@@.@.....
 .@..@.@...@.
 .......@@@@.
-ENDCHAR # À§
+ENDCHAR # Á†≤
 STARTCHAR 4b4a
 ENCODING 19274
 SWIDTH 960 0
@@ -7370,7 +7370,7 @@ BITMAP
 ....@...@...
 ...@.....@..
 .@@.......@.
-ENDCHAR # À 
+ENDCHAR # Âê†
 STARTCHAR 4b55
 ENCODING 19285
 SWIDTH 960 0
@@ -7389,7 +7389,7 @@ BITMAP
 .@@.@.@...@.
 ..@@..@@@@@.
 @@....@...@.
-ENDCHAR # À’
+ENDCHAR # Èá¶
 STARTCHAR 4b58
 ENCODING 19288
 SWIDTH 960 0
@@ -7408,7 +7408,7 @@ BITMAP
 ..@...@...@.
 .@....@@@@@.
 @.....@...@.
-ENDCHAR # Àÿ
+ENDCHAR # ÊÆÜ
 STARTCHAR 4c29
 ENCODING 19497
 SWIDTH 960 0
@@ -7427,7 +7427,7 @@ BITMAP
 .@...@...@..
 .@...@...@..
 .@@@@@@@@@..
-ENDCHAR # Ã©
+ENDCHAR # ÂØÜ
 STARTCHAR 4c2a
 ENCODING 19498
 SWIDTH 960 0
@@ -7446,7 +7446,7 @@ BITMAP
 .....@....@.
 .....@@@@@@.
 @@@@@.....@.
-ENDCHAR # Ã™
+ENDCHAR # Ëúú
 STARTCHAR 4c38
 ENCODING 19512
 SWIDTH 960 0
@@ -7465,7 +7465,7 @@ BITMAP
 ..@@.@@@@@..
 .@.@...@.@..
 @..@.@@.@@..
-ENDCHAR # Ã∏
+ENDCHAR # Èúß
 STARTCHAR 4c3d
 ENCODING 19517
 SWIDTH 960 0
@@ -7484,7 +7484,7 @@ BITMAP
 @@@@@@@@@@@.
 ..@....@@...
 @@.......@..
-ENDCHAR # ÃΩ
+ENDCHAR # ÂÜ•
 STARTCHAR 4c3e
 ENCODING 19518
 SWIDTH 960 0
@@ -7503,7 +7503,7 @@ BITMAP
 @@..@.....@.
 ....@@@@@@@.
 ....@.....@.
-ENDCHAR # Ãæ
+ENDCHAR # Âêç
 STARTCHAR 4c43
 ENCODING 19523
 SWIDTH 960 0
@@ -7522,7 +7522,7 @@ BITMAP
 .@@.@.@...@.
 ..@@..@@@@@.
 @@....@...@.
-ENDCHAR # Ã√
+ENDCHAR # Èäò
 STARTCHAR 4c58
 ENCODING 19544
 SWIDTH 960 0
@@ -7541,7 +7541,7 @@ BITMAP
 @@@..@@@@...
 ...@@.@..@@.
 .@@..@@.....
-ENDCHAR # Ãÿ
+ENDCHAR # Ëíô
 STARTCHAR 4c5c
 ENCODING 19548
 SWIDTH 960 0
@@ -7560,7 +7560,7 @@ BITMAP
 ..@.....@...
 ..@@@@@@@...
 ..@.....@...
-ENDCHAR # Ã‹
+ENDCHAR # ÁõÆ
 STARTCHAR 4c6a
 ENCODING 19562
 SWIDTH 960 0
@@ -7579,7 +7579,7 @@ BITMAP
 .@..@....@..
 @...@@@@@@..
 @...@....@..
-ENDCHAR # ÃÍ
+ENDCHAR # ÂÜ∂
 STARTCHAR 4c7d
 ENCODING 19581
 SWIDTH 960 0
@@ -7598,7 +7598,7 @@ BITMAP
 .@..@..@..@.
 @...@@@@@@@.
 @...@.....@.
-ENDCHAR # Ã˝
+ENDCHAR # Ê≤π
 STARTCHAR 4d24
 ENCODING 19748
 SWIDTH 960 0
@@ -7617,7 +7617,7 @@ BITMAP
 .@@..@...@..
 .@...@@@@@..
 .@...@...@..
-ENDCHAR # Õ§
+ENDCHAR # ‰Ωë
 STARTCHAR 4d28
 ENCODING 19752
 SWIDTH 960 0
@@ -7636,7 +7636,7 @@ BITMAP
 ...@@@@@@...
 ...@....@...
 ...@...@@...
-ENDCHAR # Õ®
+ENDCHAR # ÂÆ•
 STARTCHAR 4d2e
 ENCODING 19758
 SWIDTH 960 0
@@ -7655,7 +7655,7 @@ BITMAP
 @.@.@..@..@.
 ..@.@@@@@@@.
 ..@.@.....@.
-ENDCHAR # ÕÆ
+ENDCHAR # Êüö
 STARTCHAR 4d33
 ENCODING 19763
 SWIDTH 960 0
@@ -7674,7 +7674,7 @@ BITMAP
 .@...@...@..
 .@@@@@@@@@..
 .@.......@..
-ENDCHAR # Õ≥
+ENDCHAR # Áî±
 STARTCHAR 4d34
 ENCODING 19764
 SWIDTH 960 0
@@ -7693,7 +7693,7 @@ BITMAP
 ..@.@.@...@.
 ..@...@@@@@.
 ..@...@...@.
-ENDCHAR # Õ¥
+ENDCHAR # Á•ê
 STARTCHAR 4d35
 ENCODING 19765
 SWIDTH 960 0
@@ -7712,7 +7712,7 @@ BITMAP
 ..@..@...@..
 ..@..@@@@@..
 ..@..@...@..
-ENDCHAR # Õµ
+ENDCHAR # Ë£ï
 STARTCHAR 4d46
 ENCODING 19782
 SWIDTH 960 0
@@ -7731,7 +7731,7 @@ BITMAP
 ..@.....@...
 ..@.....@...
 ..@@@@@@@...
-ENDCHAR # Õ∆
+ENDCHAR # ÂÆπ
 STARTCHAR 4d49
 ENCODING 19785
 SWIDTH 960 0
@@ -7750,7 +7750,7 @@ BITMAP
 ..@.@..@..@.
 ..@.@@@@@@@.
 .@@.@.....@.
-ENDCHAR # Õ…
+ENDCHAR # Êè∫
 STARTCHAR 4d61
 ENCODING 19809
 SWIDTH 960 0
@@ -7769,7 +7769,7 @@ BITMAP
 .@..@...@...
 @...@@@@@...
 @...@...@...
-ENDCHAR # Õ·
+ENDCHAR # Êµ¥
 STARTCHAR 4d64
 ENCODING 19812
 SWIDTH 960 0
@@ -7788,7 +7788,7 @@ BITMAP
 .@..@.@.....
 @..@.@@.....
 @.@....@@@@.
-ENDCHAR # Õ‰
+ENDCHAR # Ê∑Ä
 STARTCHAR 4d6b
 ENCODING 19819
 SWIDTH 960 0
@@ -7807,7 +7807,7 @@ BITMAP
 .@@@@@@@@@..
 .@...@...@..
 .@@@@@@@@@..
-ENDCHAR # ÕÎ
+ENDCHAR # Èõ∑
 STARTCHAR 4d6c
 ENCODING 19820
 SWIDTH 960 0
@@ -7826,7 +7826,7 @@ BITMAP
 .@...@...@..
 @....@@@@@..
 @....@...@..
-ENDCHAR # ÕÏ
+ENDCHAR # Ê¥õ
 STARTCHAR 4d6d
 ENCODING 19821
 SWIDTH 960 0
@@ -7845,7 +7845,7 @@ BITMAP
 @.@@..@..@..
 @.@...@@@@..
 ..@...@..@..
-ENDCHAR # ÕÌ
+ENDCHAR # Áµ°
 STARTCHAR 4f24
 ENCODING 20260
 SWIDTH 960 0
@@ -7864,7 +7864,7 @@ BITMAP
 .@.......@..
 .@@@@@@@@@..
 .@.......@..
-ENDCHAR # œ§
+ENDCHAR # ÂëÇ
 STARTCHAR 4f28
 ENCODING 20264
 SWIDTH 960 0
@@ -7883,7 +7883,7 @@ BITMAP
 @@@@..@..@..
 .@.@..@@@@..
 @...@.@..@..
-ENDCHAR # œ®
+ENDCHAR # Ë≥Ç
 STARTCHAR 4f29
 ENCODING 20265
 SWIDTH 960 0
@@ -7902,7 +7902,7 @@ BITMAP
 @.@.@.@..@..
 @.@@..@@@@..
 @@....@..@..
-ENDCHAR # œ©
+ENDCHAR # Ë∑Ø
 STARTCHAR 4f2b
 ENCODING 20267
 SWIDTH 960 0
@@ -7921,7 +7921,7 @@ BITMAP
 ...@....@...
 ..@.....@...
 .@....@@....
-ENDCHAR # œ´
+ENDCHAR # Âä¥
 STARTCHAR 4f34
 ENCODING 20276
 SWIDTH 960 0
@@ -7940,7 +7940,7 @@ BITMAP
 .....@......
 .....@......
 .....@......
-ENDCHAR # œ¥
+ENDCHAR # Áâ¢
 STARTCHAR 4f42
 ENCODING 20290
 SWIDTH 960 0
@@ -7959,7 +7959,7 @@ BITMAP
 .@.@..@@@@@.
 @..@..@...@.
 ...@........
-ENDCHAR # œ¬
+ENDCHAR # Âíå
 STARTCHAR 4f43
 ENCODING 20291
 SWIDTH 960 0
@@ -7978,7 +7978,7 @@ BITMAP
 @..@.@...@..
 @..@.@@@@@..
 @@@@.@...@..
-ENDCHAR # œ√
+ENDCHAR # Ë©±
 STARTCHAR 5046
 ENCODING 20550
 SWIDTH 960 0
@@ -7997,7 +7997,7 @@ BITMAP
 ..@..@...@..
 ..@..@@@@@..
 ..@..@...@..
-ENDCHAR # –∆
+ENDCHAR # ‰º∞
 STARTCHAR 5049
 ENCODING 20553
 SWIDTH 960 0
@@ -8016,7 +8016,7 @@ BITMAP
 ..@..@....@.
 ..@..@....@.
 ..@...@@@@@.
-ENDCHAR # –…
+ENDCHAR # ‰Ωó
 STARTCHAR 504a
 ENCODING 20554
 SWIDTH 960 0
@@ -8035,7 +8035,7 @@ BITMAP
 ..@....@....
 ..@....@....
 ..@...@@....
-ENDCHAR # – 
+ENDCHAR # ‰Ωá
 STARTCHAR 504b
 ENCODING 20555
 SWIDTH 960 0
@@ -8054,7 +8054,7 @@ BITMAP
 ..@.@....@..
 ..@.@@@@@@..
 ..@.@....@..
-ENDCHAR # –À
+ENDCHAR # ‰Ω∂
 STARTCHAR 5051
 ENCODING 20561
 SWIDTH 960 0
@@ -8073,7 +8073,7 @@ BITMAP
 ..@.@....@..
 ..@.@@@@@@..
 ..@.@....@..
-ENDCHAR # –—
+ENDCHAR # ‰Ω∞
 STARTCHAR 525a
 ENCODING 21082
 SWIDTH 960 0
@@ -8092,7 +8092,7 @@ BITMAP
 @..@...@....
 @......@....
 ......@@....
-ENDCHAR # “⁄
+ENDCHAR # ÂèÆ
 STARTCHAR 525b
 ENCODING 21083
 SWIDTH 960 0
@@ -8111,7 +8111,7 @@ BITMAP
 @..@..@...@.
 @....@....@.
 ....@...@@..
-ENDCHAR # “€
+ENDCHAR # Âè®
 STARTCHAR 525c
 ENCODING 21084
 SWIDTH 960 0
@@ -8130,7 +8130,7 @@ BITMAP
 @...@....@..
 ...@.....@..
 ..@.......@.
-ENDCHAR # “‹
+ENDCHAR # Âè≠
 STARTCHAR 525d
 ENCODING 21085
 SWIDTH 960 0
@@ -8149,7 +8149,7 @@ BITMAP
 @....@...@..
 ....@....@..
 ..@@......@.
-ENDCHAR # “›
+ENDCHAR # Âè∫
 STARTCHAR 525e
 ENCODING 21086
 SWIDTH 960 0
@@ -8168,7 +8168,7 @@ BITMAP
 @..@...@....
 .......@....
 ......@@....
-ENDCHAR # “ﬁ
+ENDCHAR # ÂêÅ
 STARTCHAR 5262
 ENCODING 21090
 SWIDTH 960 0
@@ -8187,7 +8187,7 @@ BITMAP
 @....@..@.@.
 ....@...@.@.
 ...@.....@@.
-ENDCHAR # “‚
+ENDCHAR # Âê≠
 STARTCHAR 5272
 ENCODING 21106
 SWIDTH 960 0
@@ -8206,7 +8206,7 @@ BITMAP
 @..@.@...@..
 .....@...@..
 ...@@@@@@@@.
-ENDCHAR # “Ú
+ENDCHAR # ÂíÄ
 STARTCHAR 527d
 ENCODING 21117
 SWIDTH 960 0
@@ -8225,7 +8225,7 @@ BITMAP
 @..@.@...@..
 .....@@@@@..
 .....@...@..
-ENDCHAR # “˝
+ENDCHAR # Âìà
 STARTCHAR 5336
 ENCODING 21302
 SWIDTH 960 0
@@ -8244,7 +8244,7 @@ BITMAP
 @.@@@@@@@@@.
 ......@.....
 ......@.....
-ENDCHAR # ”∂
+ENDCHAR # ÂïÖ
 STARTCHAR 5338
 ENCODING 21304
 SWIDTH 960 0
@@ -8263,7 +8263,7 @@ BITMAP
 @..@.@....@.
 @....@@@@@@.
 .....@....@.
-ENDCHAR # ”∏
+ENDCHAR # Âïó
 STARTCHAR 533e
 ENCODING 21310
 SWIDTH 960 0
@@ -8282,7 +8282,7 @@ BITMAP
 @..@..@..@..
 ......@@@@..
 ......@..@..
-ENDCHAR # ”æ
+ENDCHAR # ÂíØ
 STARTCHAR 5556
 ENCODING 21846
 SWIDTH 960 0
@@ -8301,7 +8301,7 @@ BITMAP
 .....@......
 .....@......
 ....@@......
-ENDCHAR # ’÷
+ENDCHAR # Â≠õ
 STARTCHAR 555f
 ENCODING 21855
 SWIDTH 960 0
@@ -8320,7 +8320,7 @@ BITMAP
 ............
 ............
 ............
-ENDCHAR # ’ﬂ
+ENDCHAR # ÂÆÄ
 STARTCHAR 5560
 ENCODING 21856
 SWIDTH 960 0
@@ -8339,7 +8339,7 @@ BITMAP
 ...@.....@..
 ...@.....@..
 ....@@@@@@..
-ENDCHAR # ’‡
+ENDCHAR # ÂÆÉ
 STARTCHAR 5565
 ENCODING 21861
 SWIDTH 960 0
@@ -8358,7 +8358,7 @@ BITMAP
 ..@@@@@@@...
 ..@...@.....
 ..@@@@@@@@..
-ENDCHAR # ’Â
+ENDCHAR # ÂØâ
 STARTCHAR 5566
 ENCODING 21862
 SWIDTH 960 0
@@ -8377,7 +8377,7 @@ BITMAP
 ..@..@@@@@..
 .@.@@@......
 @....@@@@@@.
-ENDCHAR # ’Ê
+ENDCHAR # ÂØî
 STARTCHAR 5567
 ENCODING 21863
 SWIDTH 960 0
@@ -8396,7 +8396,7 @@ BITMAP
 .@.@.@.@.@..
 .@.@@..@..@.
 @..@...@....
-ENDCHAR # ’Á
+ENDCHAR # ÂØê
 STARTCHAR 5569
 ENCODING 21865
 SWIDTH 960 0
@@ -8415,7 +8415,7 @@ BITMAP
 ..@@@@@@@...
 ...@...@....
 .@@.....@@..
-ENDCHAR # ’È
+ENDCHAR # ÂØ¶
 STARTCHAR 556d
 ENCODING 21869
 SWIDTH 960 0
@@ -8434,7 +8434,7 @@ BITMAP
 ..@.@.@.@.@.
 @@..@.@...@.
 ...@....@@..
-ENDCHAR # ’Ì
+ENDCHAR # ÂØ´
 STARTCHAR 556e
 ENCODING 21870
 SWIDTH 960 0
@@ -8453,7 +8453,7 @@ BITMAP
 ..@@..@.@...
 @@.@@@.@@...
 ..@@.....@@.
-ENDCHAR # ’Ó
+ENDCHAR # ÂØ∞
 STARTCHAR 5625
 ENCODING 22053
 SWIDTH 960 0
@@ -8472,7 +8472,7 @@ BITMAP
 ....@.......
 ...@........
 ..@.........
-ENDCHAR # ÷•
+ENDCHAR # Â±Æ
 STARTCHAR 5626
 ENCODING 22054
 SWIDTH 960 0
@@ -8491,7 +8491,7 @@ BITMAP
 @...@.@...@.
 @.....@...@.
 .......@@@@.
-ENDCHAR # ÷¶
+ENDCHAR # ‰π¢
 STARTCHAR 5628
 ENCODING 22056
 SWIDTH 960 0
@@ -8510,7 +8510,7 @@ BITMAP
 @...@.@...@.
 @.....@...@.
 .......@@@@.
-ENDCHAR # ÷®
+ENDCHAR # Â±π
 STARTCHAR 562b
 ENCODING 22059
 SWIDTH 960 0
@@ -8529,7 +8529,7 @@ BITMAP
 .@...@...@..
 .@@@@@@@@@..
 .@.......@..
-ENDCHAR # ÷´
+ENDCHAR # Â≤î
 STARTCHAR 562d
 ENCODING 22061
 SWIDTH 960 0
@@ -8548,7 +8548,7 @@ BITMAP
 @....@.@..@.
 .....@@@@@@.
 .....@....@.
-ENDCHAR # ÷≠
+ENDCHAR # Â≤´
 STARTCHAR 562f
 ENCODING 22063
 SWIDTH 960 0
@@ -8567,7 +8567,7 @@ BITMAP
 @@@@@.@...@.
 @...@.@@@@@.
 ......@...@.
-ENDCHAR # ÷Ø
+ENDCHAR # Â≤∂
 STARTCHAR 5630
 ENCODING 22064
 SWIDTH 960 0
@@ -8586,7 +8586,7 @@ BITMAP
 @...@...@...
 @.......@...
 ........@...
-ENDCHAR # ÷∞
+ENDCHAR # Â≤º
 STARTCHAR 5631
 ENCODING 22065
 SWIDTH 960 0
@@ -8605,7 +8605,7 @@ BITMAP
 @...@.@..@@.
 @.....@@.@@.
 ....@@....@.
-ENDCHAR # ÷±
+ENDCHAR # Â≤∑
 STARTCHAR 5633
 ENCODING 22067
 SWIDTH 960 0
@@ -8624,7 +8624,7 @@ BITMAP
 @@@@@@....@.
 .....@@@@@@.
 .....@....@.
-ENDCHAR # ÷≥
+ENDCHAR # Â≤æ
 STARTCHAR 5638
 ENCODING 22072
 SWIDTH 960 0
@@ -8643,7 +8643,7 @@ BITMAP
 @...@..@....
 ......@.@@..
 ....@@....@@
-ENDCHAR # ÷∏
+ENDCHAR # Â≥∫
 STARTCHAR 5639
 ENCODING 22073
 SWIDTH 960 0
@@ -8662,7 +8662,7 @@ BITMAP
 @...@.@...@.
 @.....@...@.
 ......@..@@.
-ENDCHAR # ÷π
+ENDCHAR # Â≥≠
 STARTCHAR 563b
 ENCODING 22075
 SWIDTH 960 0
@@ -8681,7 +8681,7 @@ BITMAP
 @...@.@..@..
 @.....@@@@..
 ......@..@..
-ENDCHAR # ÷ª
+ENDCHAR # Â≥™
 STARTCHAR 5766
 ENCODING 22374
 SWIDTH 960 0
@@ -8700,7 +8700,7 @@ BITMAP
 ..@..@....@.
 ..@..@@@@@@.
 ..@..@....@.
-ENDCHAR # ◊Ê
+ENDCHAR # ÊÄï
 STARTCHAR 5777
 ENCODING 22391
 SWIDTH 960 0
@@ -8719,7 +8719,7 @@ BITMAP
 ..@.@....@..
 ..@.@@@@@@..
 ..@.@....@..
-ENDCHAR # ◊˜
+ENDCHAR # ÊÅ¨
 STARTCHAR 583a
 ENCODING 22586
 SWIDTH 960 0
@@ -8738,7 +8738,7 @@ BITMAP
 ..@..@@@@@..
 ..@.........
 ..@.@@@@@@@.
-ENDCHAR # ÿ∫
+ENDCHAR # ÊÑÉ
 STARTCHAR 5a51
 ENCODING 23121
 SWIDTH 960 0
@@ -8757,7 +8757,7 @@ BITMAP
 .@@@@@...@..
 .@..@....@..
 .@.......@..
-ENDCHAR # ⁄—
+ENDCHAR # Êñ´
 STARTCHAR 5a62
 ENCODING 23138
 SWIDTH 960 0
@@ -8776,7 +8776,7 @@ BITMAP
 ..@.....@...
 ..@@@@@@@...
 ..@.....@...
-ENDCHAR # ⁄‚
+ENDCHAR # Êù≥
 STARTCHAR 5a76
 ENCODING 23158
 SWIDTH 960 0
@@ -8795,7 +8795,7 @@ BITMAP
 @@@...@.....
 @.@@@@@@@@@.
 ......@.....
-ENDCHAR # ⁄ˆ
+ENDCHAR # Êöâ
 STARTCHAR 5a77
 ENCODING 23159
 SWIDTH 960 0
@@ -8814,7 +8814,7 @@ BITMAP
 @@@.@@@@@@..
 @.@.........
 ...@@@@@@@@.
-ENDCHAR # ⁄˜
+ENDCHAR # ÊöÑ
 STARTCHAR 5b29
 ENCODING 23337
 SWIDTH 960 0
@@ -8833,7 +8833,7 @@ BITMAP
 .@.......@..
 .@@@@@@@@@..
 .@.......@..
-ENDCHAR # €©
+ENDCHAR # Êõ∞
 STARTCHAR 5d71
 ENCODING 23921
 SWIDTH 960 0
@@ -8852,7 +8852,7 @@ BITMAP
 .@...@....@.
 @....@@@@@@.
 @....@....@.
-ENDCHAR # ›Ò
+ENDCHAR # Ê±®
 STARTCHAR 5d78
 ENCODING 23928
 SWIDTH 960 0
@@ -8871,7 +8871,7 @@ BITMAP
 .@..@....@..
 @...@@@@@@..
 @...@....@..
-ENDCHAR # ›¯
+ENDCHAR # Ê≤Ω
 STARTCHAR 5d79
 ENCODING 23929
 SWIDTH 960 0
@@ -8890,7 +8890,7 @@ BITMAP
 .@.@......@.
 @..@@@@@@@@.
 @..@......@.
-ENDCHAR # ›˘
+ENDCHAR # Ê≥ó
 STARTCHAR 5d7a
 ENCODING 23930
 SWIDTH 960 0
@@ -8909,7 +8909,7 @@ BITMAP
 .@..@@....@.
 @...@@@@@@@.
 @...@.....@.
-ENDCHAR # ›˙
+ENDCHAR # Ê≥Ö
 STARTCHAR 5d7e
 ENCODING 23934
 SWIDTH 960 0
@@ -8928,7 +8928,7 @@ BITMAP
 .@..@....@..
 @...@@@@@@..
 @...@....@..
-ENDCHAR # ›˛
+ENDCHAR # Ê≤æ
 STARTCHAR 5e21
 ENCODING 24097
 SWIDTH 960 0
@@ -8947,7 +8947,7 @@ BITMAP
 .@..@..@..@.
 @...@@@@@@@.
 @...@.....@.
-ENDCHAR # ﬁ°
+ENDCHAR # Ê≤∫
 STARTCHAR 5e25
 ENCODING 24101
 SWIDTH 960 0
@@ -8966,7 +8966,7 @@ BITMAP
 .@..@.....@.
 @...@@@@@@@.
 @...@.....@.
-ENDCHAR # ﬁ•
+ENDCHAR # Ê≥™
 STARTCHAR 5e4a
 ENCODING 24138
 SWIDTH 960 0
@@ -8985,7 +8985,7 @@ BITMAP
 .@..@.@..@..
 @..@..@..@..
 @....@@.....
-ENDCHAR # ﬁ 
+ENDCHAR # Ê∑ô
 STARTCHAR 5e55
 ENCODING 24149
 SWIDTH 960 0
@@ -9004,7 +9004,7 @@ BITMAP
 .@@@@@@@@@@.
 @.....@.....
 @.....@.....
-ENDCHAR # ﬁ’
+ENDCHAR # Ê∏æ
 STARTCHAR 5e68
 ENCODING 24168
 SWIDTH 960 0
@@ -9023,7 +9023,7 @@ BITMAP
 .@.@@@@@@@..
 @.....@.....
 @.....@.....
-ENDCHAR # ﬁË
+ENDCHAR # Êªì
 STARTCHAR 604b
 ENCODING 24651
 SWIDTH 960 0
@@ -9042,7 +9042,7 @@ BITMAP
 ..@.@.....@.
 @@..@@@@@@@.
 .@..@.....@.
-ENDCHAR # ‡À
+ENDCHAR # Áåñ
 STARTCHAR 6061
 ENCODING 24673
 SWIDTH 960 0
@@ -9061,7 +9061,7 @@ BITMAP
 ..@@.@....@.
 @@...@@@@@@.
 .....@....@.
-ENDCHAR # ‡·
+ENDCHAR # ÁèÄ
 STARTCHAR 6137
 ENCODING 24887
 SWIDTH 960 0
@@ -9080,7 +9080,7 @@ BITMAP
 .@...@...@..
 .@@@@@@@@@..
 .@.......@..
-ENDCHAR # ·∑
+ENDCHAR # ÁïÑ
 STARTCHAR 6265
 ENCODING 25189
 SWIDTH 960 0
@@ -9099,7 +9099,7 @@ BITMAP
 .@@@@..@....
 .@..@..@....
 .@...@@@@@@.
-ENDCHAR # ‚Â
+ENDCHAR # Áüº
 STARTCHAR 6269
 ENCODING 25193
 SWIDTH 960 0
@@ -9118,7 +9118,7 @@ BITMAP
 .@@@@.@..@..
 .@..@.@..@..
 ....@@@@@@@.
-ENDCHAR # ‚È
+ENDCHAR # Á††
 STARTCHAR 6270
 ENCODING 25200
 SWIDTH 960 0
@@ -9137,7 +9137,7 @@ BITMAP
 .@@@.@...@..
 .@.@.@@@@@..
 .....@...@..
-ENDCHAR # ‚
+ENDCHAR # Á¢ö
 STARTCHAR 646a
 ENCODING 25706
 SWIDTH 960 0
@@ -9156,7 +9156,7 @@ BITMAP
 @.@..@....@.
 ..@..@@@@@@.
 ..@..@....@.
-ENDCHAR # ‰Í
+ENDCHAR # Á≤®
 STARTCHAR 6821
 ENCODING 26657
 SWIDTH 960 0
@@ -9175,7 +9175,7 @@ BITMAP
 .@@.....@@..
 .@@@@@@@@@..
 .@.......@..
-ENDCHAR # Ë°
+ENDCHAR # Ëåµ
 STARTCHAR 6822
 ENCODING 26658
 SWIDTH 960 0
@@ -9194,7 +9194,7 @@ BITMAP
 .@.......@..
 .@@@@@@@@@..
 .@.......@..
-ENDCHAR # Ë¢
+ENDCHAR # Ëå¥
 STARTCHAR 6829
 ENCODING 26665
 SWIDTH 960 0
@@ -9213,7 +9213,7 @@ BITMAP
 ..@.....@...
 ..@@@@@@@...
 ..@.....@...
-ENDCHAR # Ë©
+ENDCHAR # ËçÖ
 STARTCHAR 6954
 ENCODING 26964
 SWIDTH 960 0
@@ -9232,7 +9232,7 @@ BITMAP
 ..@.@.@..@..
 ..@@@.@@@@..
 @@...@@..@..
-ENDCHAR # È‘
+ENDCHAR # Ëö∂
 STARTCHAR 6c3a
 ENCODING 27706
 SWIDTH 960 0
@@ -9251,7 +9251,7 @@ BITMAP
 @@@.@.@...@.
 ....@.@@@@@.
 ..@@..@...@.
-ENDCHAR # Ï∫
+ENDCHAR # Ë≤Ç
 STARTCHAR 6c6a
 ENCODING 27754
 SWIDTH 960 0
@@ -9270,7 +9270,7 @@ BITMAP
 @.@.@..@..@.
 @.@@...@@@@.
 @@.....@..@.
-ENDCHAR # ÏÍ
+ENDCHAR # Ë∑ñ
 STARTCHAR 6e38
 ENCODING 28216
 SWIDTH 960 0
@@ -9289,7 +9289,7 @@ BITMAP
 .@..@..@@@..
 .@@@@..@....
 .@..@..@....
-ENDCHAR # Ó∏
+ENDCHAR # ÈÇØ
 STARTCHAR 7151
 ENCODING 29009
 SWIDTH 960 0
@@ -9308,5 +9308,5 @@ BITMAP
 @.@.@.@..@..
 @...@.@@@@..
 ..@@..@..@..
-ENDCHAR # Ò—
+ENDCHAR # Èß±
 ENDFONT
