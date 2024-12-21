@@ -1,0 +1,343 @@
+dnl Process this file with autoconf to produce a configure script.
+AC_PREREQ(2.12)
+AC_INIT(fonts.alias.in)
+
+
+dnl
+dnl default values
+dnl
+AC_DIVERT_PUSH(AC_DIVERSION_NOTICE)
+
+FOUNDRY="Shinonome"
+FAMILY="Gothic"
+KANJIC12_OUTFILE="shnmk12"
+KANJIP12_OUTFILE="shnmk12p"
+MINCHO12_OUTFILE="shnmk12min"
+MARUMOJI12_OUTFILE="shnmk12maru"
+LATIN112_OUTFILE="shnm6x12a"
+HANKAKU12_OUTFILE="shnm6x12r"
+KANJIC14_OUTFILE="shnmk14"
+MINCHO14_OUTFILE="shnmk14min"
+LATIN114_OUTFILE="shnm7x14a"
+HANKAKU14_OUTFILE="shnm7x14r"
+KANJIC16_OUTFILE="shnmk16"
+MINCHO16_OUTFILE="shnmk16min"
+LATIN116_OUTFILE="shnm8x16a"
+HANKAKU16_OUTFILE="shnm8x16r"
+LATIN118_OUTFILE="shnm9x18a"
+HANKAKU18_OUTFILE="shnm9x18r"
+AC_DIVERT_POP()
+
+FONTDIR=""
+
+dnl
+dnl Checks for programs.
+dnl
+AC_PROG_INSTALL
+
+AC_PATH_PROG(MKFONTDIR, mkfontdir)
+if test "x$MKFONTDIR" = "x" ; then
+    echo "  Error: mkfontdir is necessary."
+    exit 1;
+fi
+
+AC_PATH_PROG(SED, sed)
+if test "x$SED" = "x" ; then
+    echo "  Error: sed is necessary."
+    exit 1;
+fi
+
+AC_PATH_PROG(GAWK, gawk)
+
+if test "x$GAWK" = "x" ; then
+	AC_PATH_PROG(GAWK, awk)
+	if test "x$GAWK" = "x" ; then
+	    echo "  Error: GNU awk is necessary, please install it."
+	    exit 1;	
+	elif $GAWK --copyleft > /dev/null 2>&1 ; then
+	    test 0
+	else
+	    echo "  Error: Your system has only non-GNU awk."
+	    echo "        GNU awk is necessary specially, please install it."
+	    exit 1;
+	fi
+fi
+
+AC_PATH_PROG(PERL, perl)
+if test "x$PERL" = "x" ; then
+    echo "  Error: perl is necessary, please install it."
+    exit 1;
+fi
+
+dnl
+dnl Check for other options.
+dnl
+AC_ARG_WITH(fontdir,
+[  --with-fontdir=[=DIR]          install font directory],
+    FONTDIR=$withval)
+
+AC_ARG_WITH(compress,
+[  --with-compress=[=TYPE]          compression type for font file (gzip|compress)],
+    COMPRESS=$withval)
+
+AC_ARG_WITH(family,
+[  --with-family=[=NAME]          use font family name instead of \"$FAMILY\"],
+    FAMILY=$withval)
+
+AC_ARG_WITH(foundry,
+[  --with-foundry[=NAME]          use font foundry name instead of \"$FOUNDRY\"],
+    FOUNDRY=$withval)
+
+AC_ARG_WITH(kanjic12_outfile,
+[  --with-kanjic12_outfile[=NAME]   use 12dot const-length kanji font file name instead of \"$KANJIC12_OUTFILE\"],
+    KANJIC12_OUTFILE=$withval)
+
+AC_ARG_WITH(kanjip12_outfile,
+[  --with-kanjip12_outfile[=NAME]   use 12dot proportional kanji font file name instead of \"$KANJIP12_OUTFILE\"],
+    KANJIP12_OUTFILE=$withval)
+
+AC_ARG_WITH(mincho12_outfile,
+[  --with-mincho12_outfile[=NAME]   use 12dot mincho kanji font file name instead of \"$MINCHO12_OUTFILE\"],
+    MARUMOJI12_OUTFILE=$withval)
+
+AC_ARG_WITH(marumoji12_outfile,
+[  --with-marumoji12_outfile[=NAME] use 12dot marumoji kanji font file name instead of \"$MARUMOJI12_OUTFILE\"],
+    MARUMOJI12_OUTFILE=$withval)
+
+AC_ARG_WITH(latin112_outfile,
+[  --with-latin112_outfile[=NAME]   use 12dot latin1 font file name instead of \"$LATIN112_OUTFILE\"],
+    LATIN112_OUTFILE=$withval)
+
+AC_ARG_WITH(hankaku12_outfile,
+[  --with-hankaku12_outfile[=NAME]  use 12dot hankaku font file name instead of \"$HANKAKU12_OUTFILE\"],
+    HANKAKU12_OUTFILE=$withval)
+
+AC_ARG_WITH(kanjic14_outfile,
+[  --with-kanjic14_outfile[=NAME]   use 14dot const-length kanji font file name instead of \"$KANJIC14_OUTFILE\"],
+    KANJIC14_OUTFILE=$withval)
+
+AC_ARG_WITH(mincho14_outfile,
+[  --with-mincho14_outfile[=NAME]   use 14dot mincho kanji font file name instead of \"$MINCHO14_OUTFILE\"],
+    MARUMOJI14_OUTFILE=$withval)
+
+AC_ARG_WITH(latin114_outfile,
+[  --with-latin114_outfile[=NAME]   use 14dot latin1 font file name instead of \"$LATIN114_OUTFILE\"],
+    LATIN114_OUTFILE=$withval)
+
+AC_ARG_WITH(hankaku14_outfile,
+[  --with-hankaku14_outfile[=NAME]  use 14dot hankaku font file name instead of \"$HANKAKU14_OUTFILE\"],
+    HANKAKU14_OUTFILE=$withval)
+
+AC_ARG_WITH(kanjic16_outfile,
+[  --with-kanjic16_outfile[=NAME]   use 16dot const-length kanji font file name instead of \"$KANJIC16_OUTFILE\"],
+    KANJIC16_OUTFILE=$withval)
+
+AC_ARG_WITH(mincho16_outfile,
+[  --with-mincho16_outfile[=NAME]   use 16dot mincho kanji font file name instead of \"$MINCHO16_OUTFILE\"],
+    MARUMOJI16_OUTFILE=$withval)
+
+AC_ARG_WITH(latin116_outfile,
+[  --with-latin116_outfile[=NAME]   use 16dot latin1 font file name instead of \"$LATIN116_OUTFILE\"],
+    LATIN116_OUTFILE=$withval)
+
+AC_ARG_WITH(hankaku16_outfile,
+[  --with-hankaku16_outfile[=NAME]  use 16dot hankaku font file name instead of \"$HANKAKU16_OUTFILE\"],
+    HANKAKU16_OUTFILE=$withval)
+
+AC_ARG_WITH(latin118_outfile,
+[  --with-latin118_outfile[=NAME]   use 16dot latin1 font file name instead of \"$LATIN118_OUTFILE\"],
+    LATIN118_OUTFILE=$withval)
+
+AC_ARG_WITH(hankaku18_outfile,
+[  --with-hankaku18_outfile[=NAME]  use 16dot hankaku font file name instead of \"$HANKAKU18_OUTFILE\"],
+    HANKAKU18_OUTFILE=$withval)
+
+
+AC_ARG_ENABLE(mincho, 
+[  --disable-mincho	         disable making mincho fonts],
+		MAKE_MINCHO="", MAKE_MINCHO=mincho)
+
+AC_ARG_ENABLE(marumoji, 
+[  --disable-marumoji	         disable making marumoji fonts],
+		MAKE_MARUMOJI="", MAKE_MARUMOJI=marumoji)
+
+AC_ARG_ENABLE(bold, 
+[  --disable-bold	         disable making bold fonts],
+		MAKE_BOLD="", MAKE_BOLD=bold)
+
+AC_ARG_ENABLE(italic, 
+[  --disable-italic	         disable making italic fonts],
+		MAKE_ITALIC="", MAKE_ITALIC=italic)
+
+AC_ARG_ENABLE(bolditalic, 
+[  --disable-bolditalic	         disable making bold italic fonts],
+		MAKE_BOLDITALIC="", MAKE_BOLDITALIC=bold-italic)
+
+AC_ARG_ENABLE(progressbar,
+[  --disable-progressbar          disappear verbose progress bar],
+		PROGRESS="", PROGRESS=-V)
+
+
+dnl
+dnl Search Font directory
+dnl
+if test -z "$FONTDIR" ; then
+    for X11FONTDIR in	/usr/X11R6.4/lib/X11/fonts \
+			/usr/X11R6/lib/X11/fonts \
+			/usr/X11R5/lib/X11/fonts \
+			/usr/X11/lib/X11/fonts \
+			/usr/openwin/lib/X11/fonts \
+			/usr/lib/X11/fonts ; do
+	test -d $X11FONTDIR && break
+    done
+
+    for FONTDIR in	$X11FONTDIR/japanese \
+			$X11FONTDIR/Japanese \
+			$X11FONTDIR/ja_JP.eucJP \
+			$X11FONTDIR/ja_JP \
+			$X11FONTDIR/ja \
+			$X11FONTDIR/misc; do
+	test -d $FONTDIR && break
+    done
+    echo checking font directory ... $FONTDIR
+fi
+
+
+if test "x$COMPRESS" = "x"; then
+    SUFFIX=`ls -1 $FONTDIR/*pcf* 2>/dev/null| head -1 | sed 's/.*\.//'`
+    case $SUFFIX in
+	Z|c*) SUFFIX="Z";;
+	*) SUFFIX="gz";;
+    esac
+    echo checking font file suffix ... $SUFFIX
+else
+    case $COMPRESS in
+	g*|G*) SUFFIX="gz";;
+	c*|C*|Z|z) SUFFIX="Z";;
+	*) echo "Error: invalid compress type: $COMPRESS"
+	   echo "       Please use 'gzip' or 'compress'."
+	   exit
+	   ;;
+    esac
+fi	
+
+
+dnl
+dnl Check alias file
+dnl
+if test -f fonts.alias.in; then
+    ALIASFILE=fonts.alias
+else
+    ALIASFILE=""
+fi
+
+dnl
+dnl  Look up script files.
+dnl
+SCRIPTS=""
+for SCRIPT in tools/*.in; do
+	SCRIPTS="${SCRIPTS} "tools/$(basename ${SCRIPT} .in)
+done
+
+dnl
+dnl Create Makefie
+dnl
+AC_SUBST(FOUNDRY)
+AC_SUBST(FAMILY)
+AC_SUBST(KANJIC12_OUTFILE)
+AC_SUBST(KANJIP12_OUTFILE)
+AC_SUBST(MINCHO12_OUTFILE)
+AC_SUBST(MARUMOJI12_OUTFILE)
+AC_SUBST(LATIN112_OUTFILE)
+AC_SUBST(HANKAKU12_OUTFILE)
+AC_SUBST(KANJIC14_OUTFILE)
+AC_SUBST(MINCHO14_OUTFILE)
+AC_SUBST(LATIN114_OUTFILE)
+AC_SUBST(HANKAKU14_OUTFILE)
+AC_SUBST(KANJIC16_OUTFILE)
+AC_SUBST(MINCHO16_OUTFILE)
+AC_SUBST(LATIN116_OUTFILE)
+AC_SUBST(HANKAKU16_OUTFILE)
+AC_SUBST(LATIN118_OUTFILE)
+AC_SUBST(HANKAKU18_OUTFILE)
+AC_SUBST(MAKE_MINCHO)
+AC_SUBST(MAKE_MARUMOJI)
+AC_SUBST(MAKE_BOLD)
+AC_SUBST(MAKE_ITALIC)
+AC_SUBST(MAKE_BOLDITALIC)
+AC_SUBST(MKFONTDIR)
+AC_SUBST(GAWK)
+AC_SUBST(PERL)
+AC_SUBST(FONTDIR)
+AC_SUBST(SUFFIX)
+AC_SUBST(PROGRESS)
+
+AC_OUTPUT(Makefile
+	12/kanjic/Makefile
+	12/kanjip/Makefile
+	12/mincho/Makefile
+	12/marumoji/Makefile
+	12/latin1/Makefile
+	12/hankaku/Makefile
+	14/kanjic/Makefile
+	14/mincho/Makefile
+	14/latin1/Makefile
+	14/hankaku/Makefile
+	16/kanjic/Makefile
+	16/mincho/Makefile
+	16/latin1/Makefile
+	16/hankaku/Makefile
+	18/latin1/Makefile
+	18/hankaku/Makefile
+	${SCRIPTS}
+	${ALIASFILE})
+
+chmod +x ${SCRIPTS}
+
+ALIAS_VOID_PATTERN="-e #"
+test "x${MAKE_BOLD}"       = "x" && ALIAS_VOID_PATTERN="-e bold-r-   $ALIAS_VOID_PATTERN"
+test "x${MAKE_ITALIC}"     = "x" && ALIAS_VOID_PATTERN="-e medium-i- $ALIAS_VOID_PATTERN"
+test "x${MAKE_BOLDITALIC}" = "x" && ALIAS_VOID_PATTERN="-e bold-i-   $ALIAS_VOID_PATTERN"
+
+if test -f "$ALIASFILE"; then
+    sed 'y/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/' $ALIASFILE | \
+	grep . | grep -v $ALIAS_VOID_PATTERN | \
+	awk '{if ($1 ~ /^!/ || $1 != $2) print $0;}' > $ALIASFILE-
+    mv -f $ALIASFILE- $ALIASFILE
+fi
+
+
+dnl
+dnl Output build information.
+dnl
+define(PRINT_STATUS, [
+FILE=$2/font_src.bit
+test -f $2/font_src_diff.bit && FILE=$2/font_src_diff.bit
+echo     "      FONT FILE $FONTDIR/$1.$SUFFIX"
+echo -n  "      TARGET "
+sed -n '1,/STARTPROPERTIES /s/^FONT //p' $FILE | sed -e "s/\@FOUNDRY\@/$3/" -e "s/\@FAMILY\@/$4/"
+echo     ""
+])
+
+echo     ""
+echo     "      -- STATUS --" 
+PRINT_STATUS($KANJIC12_OUTFILE, 12/kanjic, ${FOUNDRY}, ${FAMILY})
+PRINT_STATUS($KANJIP12_OUTFILE, 12/kanjip, ${FOUNDRY}, ${FAMILY})
+test "x${MAKE_MINCHO}" != "x" && \
+    PRINT_STATUS($MINCHO12_OUTFILE, 12/mincho, ${FOUNDRY}, "Mincho")
+test "x${MAKE_MARUMOJI}" != "x" && \
+    PRINT_STATUS($MARUMOJI12_OUTFILE, 12/marumoji, ${FOUNDRY}, "Marumoji")
+PRINT_STATUS($LATIN112_OUTFILE, 12/latin1,  ${FOUNDRY}, ${FAMILY})
+PRINT_STATUS($HANKAKU12_OUTFILE, 12/hankaku, ${FOUNDRY}, ${FAMILY})
+PRINT_STATUS($KANJIC14_OUTFILE, 14/kanjic, ${FOUNDRY}, ${FAMILY})
+test "x${MAKE_MINCHO}" != "x" && \
+    PRINT_STATUS($MINCHO14_OUTFILE, 14/mincho, ${FOUNDRY}, "Mincho")
+PRINT_STATUS($LATIN114_OUTFILE, 14/latin1,  ${FOUNDRY}, ${FAMILY})
+PRINT_STATUS($HANKAKU14_OUTFILE, 14/hankaku, ${FOUNDRY}, ${FAMILY})
+PRINT_STATUS($KANJIC16_OUTFILE, 16/kanjic, ${FOUNDRY}, ${FAMILY})
+test "x${MAKE_MINCHO}" != "x" && \
+    PRINT_STATUS($MINCHO16_OUTFILE, 16/mincho, ${FOUNDRY}, "Mincho")
+PRINT_STATUS($LATIN116_OUTFILE, 16/latin1,  ${FOUNDRY}, ${FAMILY})
+PRINT_STATUS($HANKAKU16_OUTFILE, 16/hankaku, ${FOUNDRY}, ${FAMILY})
+PRINT_STATUS($LATIN118_OUTFILE, 18/latin1,  ${FOUNDRY}, ${FAMILY})
+PRINT_STATUS($HANKAKU18_OUTFILE, 18/hankaku, ${FOUNDRY}, ${FAMILY})

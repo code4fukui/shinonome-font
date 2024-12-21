@@ -1,0 +1,110 @@
+#!@PERL@
+#
+# usage: bdfmerge   diff_bdf  src_bdf > out_bdf
+#
+# merge diff_bdf file with src_bdf file.
+#
+#	2001/6/18, translated for Perl, by euske@cl.cs.titech.ac.jp
+#	* public domain *
+#
+
+sub usage {
+    print STDERR "usage: bdfmerge  {diff bdf}  {src bdf} > {output bdf}\n";
+    exit 1;
+}
+
+sub get_next_diff_char {
+    while (<DIFF>) {
+	next if (/^\#/ || /^COMMENT/);
+	$next_startchar_line = $_ if (/^STARTCHAR\s/);
+	if (/^ENCODING\s+(\d+)/) {
+	    $next_encoding_line = $_;
+	    return $1;
+	}
+    }
+    return '';
+}
+
+sub print_next_diff_char {
+    my $flag = 0;
+    while(<DIFF>) {
+	if (! $flag) {
+	    print "$next_startchar_line$next_encoding_line";
+	    $flag = 1;
+	}
+	print $_;
+	return &get_next_diff_char() if (/^ENDCHAR/);
+    }
+    $eofcheck && die "unexpected EOF in diff_bdf file.";
+}
+
+sub print_diff_header {
+    while(<DIFF>) {
+	$_ = "CHARS $maxchars\n" if (/^CHARS\s/);
+	print $_;
+	last if (/^CHARS\s/);
+    }
+}
+
+sub skip_src_header {
+    while(<SRC>) { last if (/^CHARS\s/); }
+}
+
+sub count_chars {
+    open(IN, $_[0]) || die "count_chars: open: $!";
+    while(<IN>) { $enc{$1}=1 if (/^ENCODING\s+(\d+)/); }
+    close(IN);
+}
+
+# BEGIN
+&usage() if (2 != @ARGV);
+
+# get numof total chars
+%enc = ();
+&count_chars($ARGV[0]);
+&count_chars($ARGV[1]);
+$maxchars = 0 + keys(%enc);
+
+open(DIFF, $ARGV[0]) || die "open: $!";
+open(SRC, $ARGV[1]) || die "open: $!";
+&print_diff_header();
+&skip_src_header();
+
+$next_char = &get_next_diff_char() || die "diff_bdf file may be invalid format.";
+$status = 0;
+$eofcheck = 1;
+
+while(<SRC>) {
+    my $line = $_;
+    last if (/^ENDFONT/);
+    if (/^CHARS\s/) {
+	print "CHARS $maxchars\n";
+    } elsif (/^STARTCHAR\s/) {
+	my $start_char_line = $_;
+	$line = $_ = <SRC>;
+	if (/^ENCODING\s+(\d+)/) {
+	    my $char = $1;
+	    if ($next_char < $char) {
+		while ($next_char && $next_char < $char) {
+		    $next_char = &print_next_diff_char();
+		}
+	    }
+	    if ($next_char == $char) {
+		$status = 1;
+		$next_char = &print_next_diff_char();
+		next;
+	    }
+	}
+	print $start_char_line;
+    }
+    if (!$status) {
+	print $line;
+    } else {
+	$status = 0 if ($line =~ /^ENDCHAR/);
+    }
+}
+
+# END
+$eofcheck = 0;
+while (&print_next_diff_char()) { ; }
+print "ENDFONT\n";

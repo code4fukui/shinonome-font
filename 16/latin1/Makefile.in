@@ -1,0 +1,118 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+top_srcdir=@top_srcdir@
+srcdir=@srcdir@
+bindir=@bindir@
+libdir=@libdir@
+mandir=@mandir@
+
+TARGET=@LATIN116_OUTFILE@
+FONTDIR=@FONTDIR@
+SUFFIX=@SUFFIX@
+
+FOUNDRY=@FOUNDRY@
+FAMILY=@FAMILY@
+
+INSTALL=@INSTALL@
+INSTALL_DATA=@INSTALL_DATA@
+MKINSTALLDIRS=$(top_srcdir)/mkinstalldirs
+MKFONTDIR=@MKFONTDIR@
+RM=rm
+MV=mv
+
+VERBOSE_FLAG = @PROGRESS@
+MKBOLD=$(top_srcdir)/tools/mkbold -r
+MKITALIC=$(top_srcdir)/tools/mkitalic
+BIT2BDF=$(top_srcdir)/tools/bit2bdf
+
+default: medium @MAKE_BOLD@ @MAKE_ITALIC@ @MAKE_BOLDITALIC@
+all: medium @MAKE_BOLD@ @MAKE_ITALIC@ @MAKE_BOLDITALIC@
+
+src: font_src.bit
+bdf: $(TARGET).bdf
+bold: $(TARGET)b.bdf $(TARGET)b.pcf.$(SUFFIX)
+medium: $(TARGET).bdf $(TARGET).pcf.$(SUFFIX)
+italic: $(TARGET)i.bdf $(TARGET)i.pcf.$(SUFFIX)
+bold-italic: $(TARGET)bi.bdf $(TARGET)bi.pcf.$(SUFFIX)
+italic-bold: bold-italic
+
+%.pcf.gz: %.bdf
+	bdftopcf $< | gzip -9c > $@
+%.pcf.Z: %.bdf
+	bdftopcf < $<  | compress -c > $@
+
+$(TARGET).bdf: font_src.bit
+	$(BIT2BDF)  $(VERBOSE_FLAG) $< | sed -e "1,/CHARS/s/\@FOUNDRY\@/${FOUNDRY}/" -e "1,/CHARS/s/\@FAMILY\@/${FAMILY}/" > $@
+$(TARGET)b.bdf: $(TARGET).bdf
+	$(MKBOLD) $(VERBOSE_FLAG) $< > $@
+$(TARGET)i.bdf: $(TARGET).bdf
+	$(MKITALIC) $(VERBOSE_FLAG) $< > $@
+$(TARGET)bi.bdf: $(TARGET)i.bdf
+	$(MKBOLD) $(VERBOSE_FLAG) $< > $@
+
+install: installdirs install-medium install-@MAKE_BOLD@ install-@MAKE_ITALIC@ install-@MAKE_BOLDITALIC@
+
+install-:
+
+install-medium: installdirs medium
+	$(INSTALL) -m 644 $(TARGET).pcf.$(SUFFIX) $(FONTDIR)
+
+install-bold: installdirs bold
+	$(INSTALL) -m 644 $(TARGET)b.pcf.$(SUFFIX) $(FONTDIR)
+
+install-italic: installdirs italic
+	$(INSTALL) -m 644 $(TARGET)i.pcf.$(SUFFIX) $(FONTDIR)
+
+install-bold-italic: installdirs bold-italic
+	$(INSTALL) -m 644 $(TARGET)bi.pcf.$(SUFFIX) $(FONTDIR)
+
+install-italic-bold: install-bold-italic 
+
+uninstall: uninstall-medium uninstall-@MAKE_BOLD@ uninstall-@MAKE_ITALIC@ uninstall-@MAKE_BOLDITALIC@
+
+uninstall-:
+
+uninstall-medium:
+	$(RM)  -f  $(FONTDIR)/$(TARGET).pcf.$(SUFFIX)
+
+uninstall-bold:
+	$(RM)  -f  $(FONTDIR)/$(TARGET)b.pcf.$(SUFFIX)
+
+uninstall-italic:
+	$(RM)  -f  $(FONTDIR)/$(TARGET)i.pcf.$(SUFFIX)
+
+uninstall-bold-italic:
+	$(RM)  -f  $(FONTDIR)/$(TARGET)bi.pcf.$(SUFFIX)
+
+uninstall-italic-bold: uninstall-bold-italic
+
+installdirs:
+	@if test -d $(FONTDIR) ; then \
+		$(MKINSTALLDIRS) $(FONTDIR); \
+	fi
+
+clean:
+	$(RM) -f $(TARGET).pcf.$(SUFFIX)\
+		 $(TARGET)b.pcf.$(SUFFIX)\
+		 $(TARGET)i.pcf.$(SUFFIX)\
+		 $(TARGET)bi.pcf.$(SUFFIX)\
+		 $(TARGET).bdf\
+		 $(TARGET)b.bdf\
+		 $(TARGET)i.bdf\
+		 $(TARGET)bi.bdf
+	$(RM) -f tmp.bit fonts.dir
+
+distclean: clean
+	$(RM) -f config.cache config.status config.log Makefile *.BAK
+
+test:	medium
+	$(MKFONTDIR) .
+	@xset -fp $$PWD/ 2> /dev/null
+	xset +fp $$PWD/
+	xfd -fn "-$(FOUNDRY)-$(FAMILY)-Medium-r*" &
+	@sleep 3
+	xset -fp $$PWD/ 2> /dev/null
+
+renew: $(TARGET).bdf
+	$(MV) font_src.bit font_src.bit.BAK
+	$(top_srcdir)/tools/bdf2bit -c $< |nkf -e > font_src.bit

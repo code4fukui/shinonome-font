@@ -1,0 +1,197 @@
+NAME = shinonome
+VERSION = 0.9.11
+
+ARCHIVEEXTRA=AUTHORS BUGS ChangeLog ChangeLog.0 INSTALL README THANKS TODO
+ARCHIVEEXTRA+=LICENSE DESIGN.12 DESIGN.14 DESIGN.16 DESIGN.18
+SOURCEEXTRA=Makefile.in autogen.sh configure configure.in fonts.alias.in
+SOURCEEXTRA+=install-sh missing mkinstalldirs
+DISTEXTRA=fonts.alias install-sh
+DISTOVERLAP=Makefile.in configure.in
+
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+top_srcdir=@top_srcdir@
+srcdir=@srcdir@
+bindir=@bindir@
+libdir=@libdir@
+mandir=@mandir@
+
+SIZES=12 14 16 18
+
+BASEDIRS=12/kanjic 12/latin1
+BASEDIRS+=14/kanjic 14/latin1
+BASEDIRS+=16/kanjic 16/latin1
+BASEDIRS+=18/latin1
+DIFFDIRS=12/kanjip 12/@MAKE_MINCHO@ 12/@MAKE_MARUMOJI@ 12/hankaku
+DIFFDIRS+=14/@MAKE_MINCHO@ 14/hankaku
+DIFFDIRS+=16/@MAKE_MINCHO@ 16/hankaku
+DIFFDIRS+=18/hankaku
+
+SUBDIRS=$(BASEDIRS) $(DIFFDIRS)
+
+FONTDIR=@FONTDIR@
+
+INSTALL=@INSTALL@
+INSTALL_DATA=@INSTALL_DATA@
+MKINSTALLDIRS=$(srcdir)/mkinstalldirs
+MKFONTDIR=@MKFONTDIR@
+RM=rm
+MV=mv
+
+ALIASADD=$(top_srcdir)/tools/aliasadd
+
+
+default: bdf medium @MAKE_BOLD@ @MAKE_ITALIC@ @MAKE_BOLDITALIC@
+all:  bdf medium @MAKE_BOLD@ @MAKE_ITALIC@ @MAKE_BOLDITALIC@
+
+src:
+	@echo ---- making fonts source ----
+	@for subdir in ${SUBDIRS}; do \
+		(cd $$subdir && $(MAKE) $@) || exit 1; \
+	done
+
+bdf:
+	@echo ---- making $@ fonts ----
+	@for subdir in ${SUBDIRS}; do \
+		(cd $$subdir && $(MAKE) $@) || exit 1; \
+	done
+
+bold:
+	@echo ---- making $@ fonts ----
+	@for subdir in ${SUBDIRS}; do \
+		(cd $$subdir && $(MAKE) $@) || exit 1; \
+	done
+
+medium:
+	@echo ---- making $@ fonts ----
+	@for subdir in ${SUBDIRS}; do \
+		(cd $$subdir && $(MAKE) $@) || exit 1; \
+	done
+
+italic:
+	@echo ---- making $@ fonts ----
+	@for subdir in ${SUBDIRS}; do \
+		(cd $$subdir && $(MAKE) $@) || exit 1; \
+	done
+
+bold-italic:
+	@echo ---- making $@ fonts ----
+	@for subdir in ${SUBDIRS}; do \
+		(cd $$subdir && $(MAKE) $@) || exit 1; \
+	done
+
+italic-bold: bold-italic
+
+install:
+	[ -d $(FONTDIR) ] || $(MKINSTALLDIRS) $(FONTDIR)
+	@for subdir in ${SUBDIRS}; do \
+		(cd $$subdir && $(MAKE) $@) || exit 1; \
+	done
+	$(MKFONTDIR) $(FONTDIR)
+
+uninstall:
+	@for subdir in ${SUBDIRS}; do \
+		(cd $$subdir && $(MAKE) $@) || exit 1; \
+	done
+	$(MKFONTDIR) $(FONTDIR)
+
+install-alias: fonts.alias
+	if test -f $(FONTDIR)/fonts.alias ; then \
+		$(MV) $(FONTDIR)/fonts.alias $(FONTDIR)/fonts.alias.bak; \
+		$(ALIASADD) fonts.alias $(FONTDIR)/fonts.alias.bak > $(FONTDIR)/fonts.alias; \
+	else \
+		[ -d $(FONTDIR) ] || $(MKINSTALLDIRS) $(FONTDIR); \
+		cat fonts.alias > $(FONTDIR)/fonts.alias; \
+	fi
+
+uninstall-alias: fonts.alias
+	if test -f $(FONTDIR)/fonts.alias ; then \
+		$(MV) $(FONTDIR)/fonts.alias $(FONTDIR)/fonts.alias.bak; \
+		$(ALIASADD) -d fonts.alias $(FONTDIR)/fonts.alias.bak > $(FONTDIR)/fonts.alias; \
+		if ! (grep -c . $(FONTDIR)/fonts.alias > /dev/null); then \
+			rm $(FONTDIR)/fonts.alias; \
+		fi \
+	fi
+
+clean:
+	@for subdir in ${SUBDIRS}; do \
+		(cd $$subdir && $(MAKE) $@) || exit 1; \
+	done
+
+distclean:
+	@for subdir in ${SUBDIRS}; do \
+		(cd $$subdir && $(MAKE) $@) || exit 1; \
+	done
+	$(RM) -f config.cache config.status config.log Makefile
+	$(RM) -f fonts.alias
+	for FILE in tools/*; do \
+		if test -f $${FILE}.in ; then \
+			$(RM) -f $${FILE}; \
+		fi; \
+	done
+	rm -rf $(NAME)-$(VERSION)-src
+	rm -f $(NAME)-$(VERSION)-src.tar.bz2
+	rm -rf $(NAME)-$(VERSION)
+	rm -f $(NAME)-$(VERSION).tar.bz2
+
+renew:
+	@for subdir in ${SUBDIRS}; do \
+		(cd $$subdir && $(MAKE) $@) || exit 1; \
+	done
+
+test:
+	@for subdir in ${SUBDIRS}; do \
+		(cd $$subdir && $(MAKE) $@) || exit 1; \
+	done
+
+source:
+	rm -rf $(NAME)-$(VERSION)-src
+	mkdir $(NAME)-$(VERSION)-src
+	for dir in $(SIZES); do \
+		mkdir $(NAME)-$(VERSION)-src/$$dir || exit 1; \
+	done
+	for dir in $(BASEDIRS); do \
+		(rm -rf $(NAME)-$(VERSION)-src/$$dir; \
+		mkdir $(NAME)-$(VERSION)-src/$$dir; \
+		cp $$dir/Makefile.in $(NAME)-$(VERSION)-src/$$dir; \
+		cp $$dir/font_src.bit $(NAME)-$(VERSION)-src/$$dir) \
+		|| exit 1; \
+	done
+	for dir in $(DIFFDIRS); do \
+		(rm -rf $(NAME)-$(VERSION)-src/$$dir; \
+		mkdir $(NAME)-$(VERSION)-src/$$dir; \
+		cp $$dir/Makefile.in $(NAME)-$(VERSION)-src/$$dir; \
+		cp $$dir/font_src_diff.bit $(NAME)-$(VERSION)-src/$$dir) \
+		|| exit 1; \
+	done
+	for file in $(SOURCEEXTRA) $(ARCHIVEEXTRA); do \
+		cp $$file $(NAME)-$(VERSION)-src/ || exit 1; \
+	done
+	for file in $(DISTOVERLAP); do \
+		cp $$file.dist $(NAME)-$(VERSION)-src/ || exit 1; \
+	done
+	mkdir $(NAME)-$(VERSION)-src/tools/
+	for file in tools/*.in; do \
+		cp $$file $(NAME)-$(VERSION)-src/tools/ || exit 1; \
+	done
+	tar cf - $(NAME)-$(VERSION)-src/ | \
+		bzip2 -9 > $(NAME)-$(VERSION)-src.tar.bz2
+	rm -rf $(NAME)-$(VERSION)-src
+
+dist: all
+	rm -rf $(NAME)-$(VERSION)
+	mkdir $(NAME)-$(VERSION)
+	mkdir $(NAME)-$(VERSION)/bdf
+	for file in $(ARCHIVEEXTRA) $(DISTEXTRA); do \
+		cp $$file $(NAME)-$(VERSION)/ || exit 1; \
+	done
+	for file in $(DISTOVERLAP); do \
+		cp $$file.dist $(NAME)-$(VERSION)/$$file || exit 1; \
+	done
+	for dir in $(SUBDIRS); do \
+		cp $$dir/*.bdf $(NAME)-$(VERSION)/bdf/ || exit 1; \
+	done
+	(cd $(NAME)-$(VERSION) && autoconf) || exit 1;
+	tar cf - $(NAME)-$(VERSION)/ | \
+		bzip2 -9 > $(NAME)-$(VERSION).tar.bz2
+	rm -rf $(NAME)-$(VERSION)
